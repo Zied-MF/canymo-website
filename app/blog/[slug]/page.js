@@ -65,7 +65,10 @@ export default function ArticlePage({ params }) {
       <article className={styles.article}>
         <div className={styles.container}>
           <div className={styles.content}>
-            {renderContent(article.content)}
+            {article.contentHtml
+              ? <div dangerouslySetInnerHTML={{ __html: article.contentHtml }} className={styles.richContent} />
+              : renderContent(article.content)
+            }
           </div>
 
           {/* Author bloc */}

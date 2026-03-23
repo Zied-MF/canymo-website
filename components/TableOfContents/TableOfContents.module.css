@@ -1,0 +1,46 @@
+.toc {
+  background: #f5f0ea;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--green-dark);
+  opacity: 0.4;
+  margin-bottom: 14px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.link {
+  display: block;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: #666;
+  font-weight: 400;
+  padding: 5px 8px;
+  border-radius: 6px;
+  transition: color 0.3s ease, font-weight 0.3s ease, background 0.2s ease;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--green-dark);
+  background: rgba(28, 61, 42, 0.06);
+}
+
+.active {
+  color: var(--green-dark) !important;
+  font-weight: 700 !important;
+  background: rgba(28, 61, 42, 0.08);
+}

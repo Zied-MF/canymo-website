@@ -2,15 +2,15 @@
   padding-top: 80px;
 }
 
-.container {
+/* ---- Hero ---- */
+.articleHero {
+  padding: 80px 0 60px;
+}
+
+.heroContainer {
   max-width: 760px;
   margin: 0 auto;
   padding: 0 24px;
-}
-
-/* Hero */
-.articleHero {
-  padding: 80px 0 60px;
 }
 
 .back {
@@ -55,15 +55,40 @@
   color: #fff;
   opacity: 0.75;
   line-height: 1.7;
-  max-width: 600px;
 }
 
-/* Article */
+/* ---- Article layout ---- */
 .article {
   padding: 72px 0;
   background: var(--cream);
 }
 
+.articleWrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  gap: 56px;
+  align-items: flex-start;
+}
+
+.tocSidebar {
+  width: 240px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 100px;
+  align-self: flex-start;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+}
+
+.articleMain {
+  flex: 1;
+  min-width: 0;
+  max-width: 720px;
+}
+
+/* ---- Content (markdown) ---- */
 .content {
   display: flex;
   flex-direction: column;
@@ -71,10 +96,12 @@
 }
 
 .h2 {
+  font-family: var(--font-fraunces), serif;
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--green-dark);
   margin-top: 16px;
+  letter-spacing: -0.02em;
 }
 
 .p {
@@ -91,7 +118,7 @@
   line-height: 1.6;
 }
 
-/* Rich HTML content */
+/* ---- Rich HTML content ---- */
 .richContent {
   display: flex;
   flex-direction: column;
@@ -198,7 +225,7 @@
   background: rgba(28, 61, 42, 0.03);
 }
 
-/* Author */
+/* ---- Author ---- */
 .author {
   display: flex;
   align-items: center;
@@ -235,10 +262,16 @@
   line-height: 1.5;
 }
 
-/* CTA */
+/* ---- CTA ---- */
 .ctaSection {
   padding: 60px 0;
   background: var(--green-light);
+}
+
+.ctaContainer {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 .cta {
@@ -277,14 +310,16 @@
   transform: translateY(-2px);
 }
 
-/* Others */
+/* ---- Others ---- */
 .others {
   padding: 60px 0 100px;
   background: var(--cream);
 }
 
-.others .container {
+.othersContainer {
   max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 .othersTitle {
@@ -347,6 +382,25 @@
   font-weight: 700;
   color: var(--green-medium);
   margin-top: 4px;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 900px) {
+  .articleWrapper {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .tocSidebar {
+    width: 100%;
+    position: static;
+    max-height: none;
+    margin-bottom: 40px;
+  }
+
+  .articleMain {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 640px) {

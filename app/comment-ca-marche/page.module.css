@@ -1,0 +1,260 @@
+.page {
+  padding-top: 80px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Hero */
+.hero {
+  background: var(--green-dark);
+  padding: 100px 0 80px;
+  text-align: center;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.heroTitle {
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  font-weight: 700;
+  color: var(--cream);
+  margin-bottom: 20px;
+}
+
+.accent {
+  color: var(--gold);
+}
+
+.heroSubtitle {
+  font-size: 1.05rem;
+  color: var(--cream);
+  opacity: 0.65;
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Steps */
+.steps {
+  padding: 100px 0;
+  background: var(--cream);
+}
+
+.step {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.step:last-child {
+  margin-bottom: 0;
+}
+
+.stepReverse {
+  direction: rtl;
+}
+
+.stepReverse > * {
+  direction: ltr;
+}
+
+.stepCard {
+  background: var(--green-dark);
+  border-radius: 28px;
+  padding: 40px;
+  color: var(--cream);
+}
+
+.stepNum {
+  font-family: var(--font-fraunces), serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--gold);
+  opacity: 0.4;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.stepIcon {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.stepMeta {
+  margin-bottom: 20px;
+}
+
+.stepDuration {
+  font-size: 0.78rem;
+  font-weight: 600;
+  background: rgba(255, 250, 244, 0.1);
+  padding: 4px 12px;
+  border-radius: 100px;
+  color: var(--gold);
+}
+
+.stepList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stepList li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.88rem;
+  color: var(--cream);
+  opacity: 0.8;
+  line-height: 1.5;
+}
+
+.check {
+  color: var(--gold);
+  flex-shrink: 0;
+  font-weight: 700;
+}
+
+.stepContent {}
+
+.stepTitle {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 700;
+  color: var(--green-dark);
+  margin-bottom: 16px;
+}
+
+.stepDesc {
+  font-size: 1rem;
+  color: var(--green-dark);
+  opacity: 0.7;
+  line-height: 1.8;
+}
+
+/* FAQ */
+.faqSection {
+  padding: 80px 0;
+  background: var(--green-light);
+}
+
+.faqTitle {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 700;
+  color: var(--green-dark);
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.faqList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.faqItem {
+  background: #fff;
+  border-radius: 20px;
+  padding: 28px;
+}
+
+.faqQ {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--green-dark);
+  margin-bottom: 10px;
+}
+
+.faqA {
+  font-size: 0.9rem;
+  color: var(--green-dark);
+  opacity: 0.65;
+  line-height: 1.7;
+}
+
+/* CTA */
+.cta {
+  padding: 100px 0;
+  background: var(--cream);
+  text-align: center;
+}
+
+.ctaTitle {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 700;
+  color: var(--green-dark);
+  margin-bottom: 8px;
+}
+
+.ctaSub {
+  font-size: 1rem;
+  color: var(--green-dark);
+  opacity: 0.55;
+  margin-bottom: 40px;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btnPrimary {
+  background: var(--green-dark);
+  color: var(--cream);
+  padding: 16px 36px;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.btnPrimary:hover {
+  background: var(--green-medium);
+  transform: translateY(-2px);
+}
+
+.btnSecondary {
+  background: transparent;
+  color: var(--green-dark);
+  padding: 16px 36px;
+  border-radius: 14px;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 1.5px solid rgba(28, 61, 42, 0.2);
+  transition: background 0.2s ease;
+}
+
+.btnSecondary:hover {
+  background: rgba(28, 61, 42, 0.05);
+}
+
+@media (max-width: 768px) {
+  .step {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .stepReverse {
+    direction: ltr;
+  }
+
+  .faqList {
+    grid-template-columns: 1fr;
+  }
+}

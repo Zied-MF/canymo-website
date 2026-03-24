@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { articles } from '@/data/blog'
 import TableOfContents from '@/components/TableOfContents/TableOfContents'
+import StructuredData from '@/components/StructuredData/StructuredData'
 import styles from './page.module.css'
 
 export async function generateStaticParams() {
@@ -56,6 +57,33 @@ function extractHeadingsFromContent(content) {
     })
 }
 
+// Extracts FAQ { question, answer } pairs from the "Questions fréquentes" section
+function extractFaqFromHtml(html) {
+  const faqMatch = html.match(/<h2[^>]*>Questions fréquentes<\/h2>([\s\S]*?)(?:<h2|$)/)
+  if (!faqMatch) return []
+  const section = faqMatch[1]
+  return [...section.matchAll(/<h3>([\s\S]*?)<\/h3>[\s\S]*?<p>([\s\S]*?)<\/p>/g)].map(
+    ([, q, a]) => ({
+      question: q.replace(/<[^>]+>/g, '').trim(),
+      answer: a.replace(/<[^>]+>/g, '').trim(),
+    })
+  )
+}
+
+// Converts "12 mars 2025" → "2025-03-12"
+function toISODate(frenchDate) {
+  const months = {
+    janvier: '01', février: '02', mars: '03', avril: '04',
+    mai: '05', juin: '06', juillet: '07', août: '08',
+    septembre: '09', octobre: '10', novembre: '11', décembre: '12',
+  }
+  const parts = frenchDate.toLowerCase().split(' ')
+  if (parts.length === 3) {
+    return `${parts[2]}-${months[parts[1]] || '01'}-${parts[0].padStart(2, '0')}`
+  }
+  return frenchDate
+}
+
 function renderContent(raw) {
   const lines = raw.trim().split('\n')
   const elements = []
@@ -89,16 +117,45 @@ export default async function ArticlePage({ params }) {
 
   let headings = []
   let processedHtml = null
+  let faqItems = []
 
   if (article.contentHtml) {
     processedHtml = injectH2Ids(article.contentHtml)
     headings = extractHeadingsFromHtml(article.contentHtml)
+    faqItems = extractFaqFromHtml(article.contentHtml)
   } else if (article.content) {
     headings = extractHeadingsFromContent(article.content)
   }
 
+  const isoDate = toISODate(article.date)
+
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: article.title,
+    description: article.excerpt,
+    author: { '@type': 'Organization', name: 'Canymo' },
+    publisher: { '@type': 'Organization', name: 'Canymo', url: 'https://canymo.com' },
+    datePublished: isoDate,
+    dateModified: isoDate,
+    url: `https://canymo.com/blog/${article.slug}`,
+  }
+
+  const faqSchema = faqItems.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.map(({ question, answer }) => ({
+      '@type': 'Question',
+      name: question,
+      acceptedAnswer: { '@type': 'Answer', text: answer },
+    })),
+  } : null
+
   return (
     <div className={styles.page}>
+      <StructuredData data={articleSchema} />
+      {faqSchema && <StructuredData data={faqSchema} />}
+
       {/* Article Header */}
       <header className={styles.articleHero} style={{ background: article.color }}>
         <div className={styles.heroContainer}>

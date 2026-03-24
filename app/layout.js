@@ -25,6 +25,9 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.canymo.com',
   },
+  verification: {
+    google: 'eDZhYjmJSCKCuBtALP-71mheUVy4csfPJfMm0yvbJNg',
+  },
 }
 
 export default function RootLayout({ children }) {

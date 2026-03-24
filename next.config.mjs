@@ -3,7 +3,7 @@ const nextConfig = {
   experimental: {
     optimizeCss: true,
     cssChunking: true,
-    optimizePackageImports: ['next/navigation', 'next/link', 'next/font/google'],
+    optimizePackageImports: ['next/font/google'],
   },
 };
 

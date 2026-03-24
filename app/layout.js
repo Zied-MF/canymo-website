@@ -7,14 +7,14 @@ const fraunces = Fraunces({
   subsets: ['latin'],
   variable: '--font-fraunces',
   display: 'swap',
-  weight: ['300', '400', '600', '700'],
+  weight: ['400', '600', '700'],
 })
 
 const dmSans = DM_Sans({
   subsets: ['latin'],
   variable: '--font-dm-sans',
   display: 'swap',
-  weight: ['400', '500', '600'],
+  weight: ['400', '600'],
 })
 
 export const metadata = {

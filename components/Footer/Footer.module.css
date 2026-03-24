@@ -73,7 +73,7 @@
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  opacity: 0.45;
+  opacity: 0.75;
   margin-bottom: 4px;
 }
 
@@ -94,7 +94,7 @@
   justify-content: space-between;
   align-items: center;
   font-size: 0.82rem;
-  opacity: 0.5;
+  opacity: 0.72;
   flex-wrap: wrap;
   gap: 8px;
 }

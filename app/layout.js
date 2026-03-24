@@ -23,7 +23,7 @@ export const metadata = {
     "L'app de santé et bien-être pour chiens. Plans personnalisés, nutrition adaptée, suivi intelligent.",
   robots: { index: false, follow: false },
   alternates: {
-    canonical: 'https://canymo.com',
+    canonical: 'https://www.canymo.com',
   },
 }
 

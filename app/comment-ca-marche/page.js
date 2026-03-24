@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Comment ça marche — Canymo',
   description: 'Découvrez comment Canymo crée un programme santé personnalisé pour votre chien en 3 étapes simples.',
   alternates: {
-    canonical: 'https://canymo.com/comment-ca-marche',
+    canonical: 'https://www.canymo.com/comment-ca-marche',
   },
 }
 

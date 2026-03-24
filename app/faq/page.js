@@ -42,7 +42,7 @@ export const metadata = {
   title: 'FAQ — Canymo',
   description: 'Toutes les réponses à vos questions sur Canymo, l\'app de santé et bien-être pour chiens.',
   alternates: {
-    canonical: 'https://canymo.com/faq',
+    canonical: 'https://www.canymo.com/faq',
   },
 }
 

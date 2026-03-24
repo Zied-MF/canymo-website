@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Blog — Canymo',
   description: 'Conseils santé, nutrition et bien-être pour ton chien. Écrits par des passionnés.',
   alternates: {
-    canonical: 'https://canymo.com/blog',
+    canonical: 'https://www.canymo.com/blog',
   },
 }
 

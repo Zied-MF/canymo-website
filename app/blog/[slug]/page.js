@@ -20,7 +20,7 @@ export async function generateMetadata({ params }) {
     title: `${article.title} — Canymo Blog`,
     description: article.excerpt,
     alternates: {
-      canonical: `https://canymo.com/blog/${slug}`,
+      canonical: `https://www.canymo.com/blog/${slug}`,
     },
   }
 }
@@ -141,10 +141,10 @@ export default async function ArticlePage({ params }) {
     headline: article.title,
     description: article.excerpt,
     author: { '@type': 'Organization', name: 'Canymo' },
-    publisher: { '@type': 'Organization', name: 'Canymo', url: 'https://canymo.com' },
+    publisher: { '@type': 'Organization', name: 'Canymo', url: 'https://www.canymo.com' },
     datePublished: isoDate,
     dateModified: isoDate,
-    url: `https://canymo.com/blog/${article.slug}`,
+    url: `https://www.canymo.com/blog/${article.slug}`,
   }
 
   const faqSchema = faqItems.length > 0 ? {

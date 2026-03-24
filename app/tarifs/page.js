@@ -41,7 +41,7 @@ const plans = [
     textColor: 'var(--cream)',
     popular: true,
     features: [
-      { label: 'Profil pour 1 chien', ok: true },
+      { label: 'Profil pour 2 chiens', ok: true },
       { label: 'Plan de base (7 jours)', ok: true },
       { label: 'Checklist journalière', ok: true },
       { label: 'Calcul de ration simplifié', ok: true },
@@ -64,7 +64,7 @@ const plans = [
     textColor: 'var(--green-dark)',
     badge: '-32%',
     features: [
-      { label: 'Profil pour 1 chien', ok: true },
+      { label: 'Profil pour 2 chiens', ok: true },
       { label: 'Plan de base (7 jours)', ok: true },
       { label: 'Checklist journalière', ok: true },
       { label: 'Calcul de ration simplifié', ok: true },

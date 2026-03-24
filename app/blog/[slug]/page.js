@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import { articles } from '@/data/articles/index'
 import TableOfContents from '@/components/TableOfContents/TableOfContents'
 import StructuredData from '@/components/StructuredData/StructuredData'
+import ArticleHero from '@/components/ArticleHero/ArticleHero'
 import styles from './page.module.css'
 
 export async function generateStaticParams() {
@@ -156,17 +157,13 @@ export default async function ArticlePage({ params }) {
       <StructuredData data={articleSchema} />
       {faqSchema && <StructuredData data={faqSchema} />}
 
-      {/* Article Header */}
-      <header className={styles.articleHero} style={{ background: article.color }}>
-        <div className={styles.heroContainer}>
-          <Link href="/blog" className={styles.back}>← Retour au blog</Link>
-          <div className={styles.meta}>
-            <span className={styles.date}>{article.date}</span>
-          </div>
-          <h1 className={styles.title}>{article.title}</h1>
-          <p className={styles.excerpt}>{article.excerpt}</p>
-        </div>
-      </header>
+      {/* Article Header with sticky band */}
+      <ArticleHero
+        title={article.title}
+        date={article.date}
+        excerpt={article.excerpt}
+        color={article.color}
+      />
 
       {/* Article Body */}
       <article className={styles.article}>

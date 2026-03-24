@@ -1,5 +1,7 @@
+import dynamic from 'next/dynamic'
 import StructuredData from '@/components/StructuredData/StructuredData'
-import FAQClient from './FAQClient'
+
+const FAQClient = dynamic(() => import('./FAQClient'))
 
 const faqs = [
   {

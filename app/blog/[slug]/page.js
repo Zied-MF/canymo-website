@@ -1,10 +1,12 @@
-import Link from 'next/link'
+import dynamic from 'next/dynamic'
 import { notFound } from 'next/navigation'
 import { articles } from '@/data/articles/index'
-import TableOfContents from '@/components/TableOfContents/TableOfContents'
 import StructuredData from '@/components/StructuredData/StructuredData'
 import ArticleHero from '@/components/ArticleHero/ArticleHero'
 import styles from './page.module.css'
+import Link from 'next/link'
+
+const TableOfContents = dynamic(() => import('@/components/TableOfContents/TableOfContents'))
 
 export async function generateStaticParams() {
   return articles.map(a => ({ slug: a.slug }))

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import FadeUp from '@/components/FadeUp/FadeUp'
-import { articles } from '@/data/blog'
+import { articles } from '@/data/articles/index'
 import styles from './page.module.css'
 
 export const metadata = {

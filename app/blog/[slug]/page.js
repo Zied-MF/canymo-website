@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { articles } from '@/data/blog'
+import { articles } from '@/data/articles/index'
 import TableOfContents from '@/components/TableOfContents/TableOfContents'
 import StructuredData from '@/components/StructuredData/StructuredData'
 import styles from './page.module.css'

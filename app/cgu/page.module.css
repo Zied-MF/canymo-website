@@ -1,0 +1,84 @@
+.page {
+  background: var(--cream);
+  padding: 120px 0 100px;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.h1 {
+  font-family: var(--font-fraunces), serif;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 700;
+  color: var(--green-dark);
+  text-align: center;
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.updated {
+  text-align: center;
+  font-size: 0.88rem;
+  color: var(--green-dark);
+  opacity: 0.5;
+  margin-bottom: 64px;
+}
+
+.h2 {
+  font-family: var(--font-fraunces), serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--green-dark);
+  margin-top: 52px;
+  margin-bottom: 14px;
+  letter-spacing: -0.01em;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(28, 61, 42, 0.1);
+}
+
+.h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--green-dark);
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.p {
+  font-size: 0.97rem;
+  color: var(--green-dark);
+  opacity: 0.78;
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.list li {
+  font-size: 0.97rem;
+  color: var(--green-dark);
+  opacity: 0.78;
+  line-height: 1.7;
+  padding-left: 18px;
+  position: relative;
+}
+
+.list li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--green-medium);
+  font-weight: 700;
+}

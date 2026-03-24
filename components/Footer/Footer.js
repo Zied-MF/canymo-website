@@ -26,19 +26,19 @@ export default function Footer() {
               <span className={styles.colTitle}>Ressources</span>
               <Link href="/blog">Blog</Link>
               <Link href="/faq">FAQ</Link>
-              <a href="#">Contact</a>
+              <Link href="/contact">Contact</Link>
             </div>
             <div className={styles.col}>
               <span className={styles.colTitle}>Légal</span>
-              <a href="#">Mentions légales</a>
-              <a href="#">CGU</a>
-              <a href="#">Confidentialité</a>
+              <Link href="/mentions-legales">Mentions légales</Link>
+              <Link href="/cgu">CGU</Link>
+              <Link href="/confidentialite">Politique de confidentialité</Link>
             </div>
           </div>
         </div>
 
         <div className={styles.bottom}>
-          <span>© 2025 Canymo. Tous droits réservés.</span>
+          <span>© 2026 Canymo. Tous droits réservés.</span>
           <span>Fait avec ❤️ pour les chiens de France</span>
         </div>
       </div>

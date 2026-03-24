@@ -4,13 +4,12 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding: 12px 20px;
   background: #FFFAF4;
   box-shadow: 0 1px 12px rgba(28, 61, 42, 0.10);
-  z-index: 200;
+  z-index: 300;
   opacity: 0;
   pointer-events: none;
-  transform: translateY(-8px);
+  transform: translateY(-100%);
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
@@ -20,16 +19,36 @@
   transform: translateY(0);
 }
 
+.bandInner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.bandLogo {
+  font-family: var(--font-fraunces), serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1C3D2A;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
 .bandTitle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   font-size: 1rem;
   font-weight: 600;
   color: #1C3D2A;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  display: block;
-  max-width: 860px;
-  margin: 0 auto;
+  max-width: 55%;
 }
 
 /* ---- Hero ---- */

@@ -4,6 +4,9 @@ import styles from './page.module.css'
 export const metadata = {
   title: 'Tarifs — Canymo',
   description: 'Découvrez les plans Canymo : Free, Pro mensuel et Pro annuel. Commencez gratuitement.',
+  alternates: {
+    canonical: 'https://canymo.com/tarifs',
+  },
 }
 
 const plans = [

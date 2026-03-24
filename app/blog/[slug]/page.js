@@ -19,6 +19,9 @@ export async function generateMetadata({ params }) {
   return {
     title: `${article.title} — Canymo Blog`,
     description: article.excerpt,
+    alternates: {
+      canonical: `https://canymo.com/blog/${slug}`,
+    },
   }
 }
 

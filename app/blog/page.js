@@ -6,6 +6,9 @@ import styles from './page.module.css'
 export const metadata = {
   title: 'Blog — Canymo',
   description: 'Conseils santé, nutrition et bien-être pour ton chien. Écrits par des passionnés.',
+  alternates: {
+    canonical: 'https://canymo.com/blog',
+  },
 }
 
 export default function Blog() {

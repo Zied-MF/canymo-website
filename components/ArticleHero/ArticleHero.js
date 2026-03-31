@@ -23,10 +23,9 @@ export default function ArticleHero({ title, date, excerpt, color }) {
 
   return (
     <>
-      {/* Sticky band — covers the main header when H1 is out of view */}
+      {/* Sticky band — appears below the main header when H1 is out of view */}
       <div className={`${styles.band} ${bannerVisible ? styles.bandVisible : ''}`}>
         <div className={styles.bandInner}>
-          <Link href="/" className={styles.bandLogo}>🐾 Canymo</Link>
           <span className={styles.bandTitle}>{title}</span>
         </div>
       </div>

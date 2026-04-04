@@ -10,8 +10,7 @@ export default function Footer() {
             <span className={styles.logo}>🐾 Canymo</span>
             <p>L'app de santé pensée pour ton chien.</p>
             <div className={styles.stores}>
-              <a href="#" className={styles.storeBtn}>App Store</a>
-              <a href="#" className={styles.storeBtn}>Google Play</a>
+              <a href="https://app.canymo.com" className={styles.storeBtn}>Essayer gratuitement →</a>
             </div>
           </div>
 

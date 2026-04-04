@@ -147,7 +147,7 @@ export default function CommentCaMarche() {
             <h2 className={styles.ctaTitle}>Prêt à commencer ?</h2>
             <p className={styles.ctaSub}>Gratuit, sans carte bancaire.</p>
             <div className={styles.ctaButtons}>
-              <a href="#" className={styles.btnPrimary}>Télécharger Canymo</a>
+              <a href="https://app.canymo.com" className={styles.btnPrimary}>Essayer gratuitement →</a>
               <a href="/tarifs" className={styles.btnSecondary}>Voir les tarifs</a>
             </div>
           </FadeUp>

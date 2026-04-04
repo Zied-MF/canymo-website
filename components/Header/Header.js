@@ -31,7 +31,7 @@ export default function Header() {
             <Link href="/tarifs" onClick={close}>Tarifs</Link>
             <Link href="/blog" onClick={close}>Blog</Link>
             <Link href="/faq" onClick={close}>FAQ</Link>
-            <Link href="#" className={styles.ctaBtn} onClick={close}>Télécharger</Link>
+            <Link href="https://app.canymo.com" className={styles.ctaBtn} onClick={close}>Essayer</Link>
           </nav>
 
           <button

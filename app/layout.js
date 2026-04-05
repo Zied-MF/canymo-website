@@ -21,7 +21,7 @@ export const metadata = {
   title: "Canymo — Ton chien mérite d'être au top",
   description:
     "L'app de santé et bien-être pour chiens. Plans personnalisés, nutrition adaptée, suivi intelligent.",
-  robots: { index: false, follow: false },
+  robots: { index: true, follow: true },
   alternates: {
     canonical: 'https://www.canymo.com',
   },

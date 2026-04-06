@@ -50,7 +50,7 @@ export default function Hero() {
 
               <div className={styles.statsRow}>
                 <div className={styles.stat}>
-                  <span className={styles.statEmoji}>🏃</span>
+                  <span className={styles.statEmoji}>🐕</span>
                   <span className={styles.statNum}>45 min</span>
                   <span className={styles.statLbl}>Exercice</span>
                 </div>

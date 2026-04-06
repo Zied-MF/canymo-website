@@ -3,7 +3,7 @@ import styles from './Features.module.css'
 
 const features = [
   {
-    icon: '🏃',
+    icon: '🐕',
     title: 'Exercice personnalisé',
     desc: 'Chaque race a ses besoins propres. Un Border Collie ne se promène pas comme un Bouledogue. Canymo adapte tout automatiquement.',
     color: '#e8f5ec',

@@ -14,6 +14,6 @@ function parseDate(str) {
   return new Date(+year, (months[month] || 1) - 1, +day)
 }
 
-const all = [surpoids, exercice, nutrition, age, regle333, monChienNeMangePlusCausesEtQuandSinquieter]
+const all = [surpoids, exercice, nutrition, age, regle333]
 
 export const articles = all.sort((a, b) => parseDate(b.date) - parseDate(a.date))

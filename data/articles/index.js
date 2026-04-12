@@ -3,7 +3,6 @@ import exercice from './exercice-selon-race'
 import nutrition from './nutrition-chien-mythes'
 import age from './age-chien-sante'
 import regle333 from './regle-333-adoption-chien'
-import monChienNeMangePlusCausesEtQuandSinquieter from './mon-chien-ne-mange-plus-causes-et-quand-sinquieter'
 
 const months = {
   janvier: 1, février: 2, mars: 3, avril: 4, mai: 5, juin: 6,

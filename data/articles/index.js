@@ -4,4 +4,4 @@ import nutrition from './nutrition-chien-mythes'
 import age from './age-chien-sante'
 import regle333 from './regle-333-adoption-chien'
 
-export const articles = [surpoids, exercice, nutrition, age, regle333, monChienNeMangePlusCausesEtQuandSinquieter]
+export const articles = [surpoids, exercice, nutrition, age, regle333]

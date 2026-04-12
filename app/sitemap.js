@@ -11,7 +11,8 @@ const months = {
 function parseArticleDate(frenchDate) {
   const parts = frenchDate.toLowerCase().split(' ')
   if (parts.length === 3) {
-    return new Date(`${parts[2]}-${months[parts[1]] || '01'}-${parts[0].padStart(2, '0')}`)
+    const d = new Date(`${parts[2]}-${months[parts[1]] || '01'}-${parts[0].padStart(2, '0')}`)
+    if (!isNaN(d.getTime())) return d
   }
   return new Date()
 }

@@ -1,7 +1,7 @@
 const article = {
   slug: 'mon-chien-ne-mange-plus-causes-et-quand-sinquieter',
   title: 'Mon Chien Ne Mange Plus : Causes et Solutions Immédiates',
-  date: '4/12/2026 April YYYY',
+  date: '12 avril 2026',
   color: '#7a5c1e',
   excerpt: 'Votre chien ne mange plus ? Découvrez les 7 causes principales et les signaux d\'alarme qui nécessitent une consultation vétérinaire urgente.',
   contentHtml: `

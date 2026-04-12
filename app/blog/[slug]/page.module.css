@@ -184,7 +184,7 @@
 .authorAvatar {
   width: 52px;
   height: 52px;
-  background: var(--green-dark);
+  background: #FFFFFF;
   border-radius: 50%;
   display: flex;
   align-items: center;

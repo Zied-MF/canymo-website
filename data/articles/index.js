@@ -4,6 +4,7 @@ import nutrition from './nutrition-chien-mythes'
 import age from './age-chien-sante'
 import regle333 from './regle-333-adoption-chien'
 import monChienNeMangePlusCausesEtQuandSinquieter from './mon-chien-ne-mange-plus-causes-et-quand-sinquieter'
+import arthroseDuChienSymptomesEtExercicesAdaptes from './arthrose-du-chien-symptomes-et-exercices-adaptes'
 
 // Fonction pour parser les dates en français
 const months = {
@@ -25,5 +26,5 @@ function parseDate(dateStr) {
 }
 
 // Articles triés du plus récent au plus ancien
-const allArticles = [surpoids, exercice, nutrition, age, regle333, monChienNeMangePlusCausesEtQuandSinquieter]
+const allArticles = [surpoids, exercice, nutrition, age, regle333, monChienNeMangePlusCausesEtQuandSinquieter, arthroseDuChienSymptomesEtExercicesAdaptes]
 export const articles = allArticles.sort((a, b) => parseDate(b.date) - parseDate(a.date))

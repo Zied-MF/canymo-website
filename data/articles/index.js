@@ -7,6 +7,7 @@ import monChienNeMangePlusCausesEtQuandSinquieter from './mon-chien-ne-mange-plu
 import arthroseDuChienSymptomesEtExercicesAdaptes from './arthrose-du-chien-symptomes-et-exercices-adaptes'
 import promenerSonChienFrequenceDureeEtErreursAEviter from './promener-son-chien-frequence-duree-et-erreurs-a-eviter'
 import beaglePourquoiCetteRaceGrossitFacilement from './beagle-pourquoi-cette-race-grossit-facilement'
+import canicrossDebutantCommentCommencerACourirAvecSonChien from './canicross-debutant-comment-commencer-a-courir-avec-son-chien'
 
 // Fonction pour parser les dates en français
 const months = {
@@ -28,5 +29,5 @@ function parseDate(dateStr) {
 }
 
 // Articles triés du plus récent au plus ancien
-const allArticles = [surpoids, exercice, nutrition, age, regle333, monChienNeMangePlusCausesEtQuandSinquieter, arthroseDuChienSymptomesEtExercicesAdaptes, promenerSonChienFrequenceDureeEtErreursAEviter, beaglePourquoiCetteRaceGrossitFacilement]
+const allArticles = [surpoids, exercice, nutrition, age, regle333, monChienNeMangePlusCausesEtQuandSinquieter, arthroseDuChienSymptomesEtExercicesAdaptes, promenerSonChienFrequenceDureeEtErreursAEviter, beaglePourquoiCetteRaceGrossitFacilement, canicrossDebutantCommentCommencerACourirAvecSonChien]
 export const articles = allArticles.sort((a, b) => parseDate(b.date) - parseDate(a.date))

@@ -8,6 +8,7 @@ import arthroseDuChienSymptomesEtExercicesAdaptes from './arthrose-du-chien-symp
 import promenerSonChienFrequenceDureeEtErreursAEviter from './promener-son-chien-frequence-duree-et-erreurs-a-eviter'
 import beaglePourquoiCetteRaceGrossitFacilement from './beagle-pourquoi-cette-race-grossit-facilement'
 import canicrossDebutantCommentCommencerACourirAvecSonChien from './canicross-debutant-comment-commencer-a-courir-avec-son-chien'
+import bergerAllemandActivitePhysiqueEtProblemesArticulaires from './berger-allemand-activite-physique-et-problemes-articulaires'
 
 // Fonction pour parser les dates en français
 const months = {
@@ -29,5 +30,5 @@ function parseDate(dateStr) {
 }
 
 // Articles triés du plus récent au plus ancien
-const allArticles = [surpoids, exercice, nutrition, age, regle333, monChienNeMangePlusCausesEtQuandSinquieter, arthroseDuChienSymptomesEtExercicesAdaptes, promenerSonChienFrequenceDureeEtErreursAEviter, beaglePourquoiCetteRaceGrossitFacilement, canicrossDebutantCommentCommencerACourirAvecSonChien]
+const allArticles = [surpoids, exercice, nutrition, age, regle333, monChienNeMangePlusCausesEtQuandSinquieter, arthroseDuChienSymptomesEtExercicesAdaptes, promenerSonChienFrequenceDureeEtErreursAEviter, beaglePourquoiCetteRaceGrossitFacilement, canicrossDebutantCommentCommencerACourirAvecSonChien, bergerAllemandActivitePhysiqueEtProblemesArticulaires]
 export const articles = allArticles.sort((a, b) => parseDate(b.date) - parseDate(a.date))

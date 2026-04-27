@@ -10,6 +10,7 @@ import beaglePourquoiCetteRaceGrossitFacilement from './beagle-pourquoi-cette-ra
 import canicrossDebutantCommentCommencerACourirAvecSonChien from './canicross-debutant-comment-commencer-a-courir-avec-son-chien'
 import bergerAllemandActivitePhysiqueEtProblemesArticulaires from './berger-allemand-activite-physique-et-problemes-articulaires'
 import barfPourChienGuideCompletPourDebutants from './barf-pour-chien-guide-complet-pour-debutants'
+import routineQuotidiennePourChienLimportanceDesHoraires from './routine-quotidienne-pour-chien-limportance-des-horaires'
 
 // Fonction pour parser les dates en français
 const months = {
@@ -31,5 +32,5 @@ function parseDate(dateStr) {
 }
 
 // Articles triés du plus récent au plus ancien
-const allArticles = [surpoids, exercice, nutrition, age, regle333, monChienNeMangePlusCausesEtQuandSinquieter, arthroseDuChienSymptomesEtExercicesAdaptes, promenerSonChienFrequenceDureeEtErreursAEviter, beaglePourquoiCetteRaceGrossitFacilement, canicrossDebutantCommentCommencerACourirAvecSonChien, bergerAllemandActivitePhysiqueEtProblemesArticulaires, barfPourChienGuideCompletPourDebutants]
+const allArticles = [surpoids, exercice, nutrition, age, regle333, monChienNeMangePlusCausesEtQuandSinquieter, arthroseDuChienSymptomesEtExercicesAdaptes, promenerSonChienFrequenceDureeEtErreursAEviter, beaglePourquoiCetteRaceGrossitFacilement, canicrossDebutantCommentCommencerACourirAvecSonChien, bergerAllemandActivitePhysiqueEtProblemesArticulaires, barfPourChienGuideCompletPourDebutants, routineQuotidiennePourChienLimportanceDesHoraires]
 export const articles = allArticles.sort((a, b) => parseDate(b.date) - parseDate(a.date))

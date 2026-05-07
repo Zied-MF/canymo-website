@@ -15,6 +15,7 @@ import poidsIdealDuChienSelonSaRaceTableauComplet from './poids-ideal-du-chien-s
 import labradorExerciceAlimentationEtGestionDuPoids from './labrador-exercice-alimentation-et-gestion-du-poids'
 import alimentsToxiquesPourChienListeCompleteAConnaitre from './aliments-toxiques-pour-chien-liste-complete-a-connaitre'
 import cavalierKingCharlesSantePoidsEtActivite from './cavalier-king-charles-sante-poids-et-activite'
+import commentSavoirSiMonChienEstEnSurpoidsLeTestVisuel from './comment-savoir-si-mon-chien-est-en-surpoids-le-test-visuel'
 
 // Fonction pour parser les dates en français
 const months = {
@@ -36,5 +37,5 @@ function parseDate(dateStr) {
 }
 
 // Articles triés du plus récent au plus ancien
-const allArticles = [surpoids, exercice, nutrition, age, regle333, monChienNeMangePlusCausesEtQuandSinquieter, arthroseDuChienSymptomesEtExercicesAdaptes, promenerSonChienFrequenceDureeEtErreursAEviter, beaglePourquoiCetteRaceGrossitFacilement, canicrossDebutantCommentCommencerACourirAvecSonChien, bergerAllemandActivitePhysiqueEtProblemesArticulaires, barfPourChienGuideCompletPourDebutants, routineQuotidiennePourChienLimportanceDesHoraires, poidsIdealDuChienSelonSaRaceTableauComplet, labradorExerciceAlimentationEtGestionDuPoids, alimentsToxiquesPourChienListeCompleteAConnaitre, cavalierKingCharlesSantePoidsEtActivite]
+const allArticles = [surpoids, exercice, nutrition, age, regle333, monChienNeMangePlusCausesEtQuandSinquieter, arthroseDuChienSymptomesEtExercicesAdaptes, promenerSonChienFrequenceDureeEtErreursAEviter, beaglePourquoiCetteRaceGrossitFacilement, canicrossDebutantCommentCommencerACourirAvecSonChien, bergerAllemandActivitePhysiqueEtProblemesArticulaires, barfPourChienGuideCompletPourDebutants, routineQuotidiennePourChienLimportanceDesHoraires, poidsIdealDuChienSelonSaRaceTableauComplet, labradorExerciceAlimentationEtGestionDuPoids, alimentsToxiquesPourChienListeCompleteAConnaitre, cavalierKingCharlesSantePoidsEtActivite, commentSavoirSiMonChienEstEnSurpoidsLeTestVisuel]
 export const articles = allArticles.sort((a, b) => parseDate(b.date) - parseDate(a.date))

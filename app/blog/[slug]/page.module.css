@@ -75,7 +75,7 @@
 .richContent p {
   font-size: 1rem;
   line-height: 1.8;
-  opacity: 0.75;
+  color: rgba(28, 61, 42, 0.75);
 }
 
 .richContent h2 {
@@ -121,16 +121,15 @@
 }
 
 .richContent a {
-  color: var(--green-medium);
+  color: var(--green-dark);
   font-weight: 600;
   text-decoration: underline;
-  text-decoration-color: rgba(45, 100, 68, 0.35);
+  text-decoration-color: rgba(28, 61, 42, 0.4);
   text-underline-offset: 3px;
-  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+  transition: text-decoration-color 0.2s ease;
 }
 
 .richContent a:hover {
-  color: var(--green-dark);
   text-decoration-color: var(--green-dark);
 }
 
@@ -217,8 +216,7 @@
 
 .author p {
   font-size: 0.85rem;
-  color: var(--green-dark);
-  opacity: 0.55;
+  color: rgba(28, 61, 42, 0.6);
   line-height: 1.5;
 }
 

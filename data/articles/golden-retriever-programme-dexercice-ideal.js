@@ -1,4 +1,3 @@
-```javascript
 const article = {
   slug: 'golden-retriever-programme-exercice-ideal',
   title: 'Golden Retriever Exercice : Programme Complet pour une Santé Optimale',
@@ -186,4 +185,3 @@ const article = {
 };
 
 export default article;
-```

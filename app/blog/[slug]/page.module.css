@@ -75,7 +75,7 @@
 .richContent p {
   font-size: 1rem;
   line-height: 1.8;
-  color: rgba(28, 61, 42, 0.75);
+  color: #4a6b58;
 }
 
 .richContent h2 {
@@ -216,7 +216,7 @@
 
 .author p {
   font-size: 0.85rem;
-  color: rgba(28, 61, 42, 0.6);
+  color: #4a6b58;
   line-height: 1.5;
 }
 

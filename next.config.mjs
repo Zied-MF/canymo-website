@@ -2,7 +2,7 @@
 const nextConfig = {
   experimental: {
     optimizeCss: true,
-    cssChunking: true,
+    cssChunking: 'loose',
     optimizePackageImports: ['next/font/google'],
   },
 };

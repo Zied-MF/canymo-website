@@ -6,7 +6,7 @@ date: '13 mai 2026',
 color: '#7a5c1e',
 excerpt: 'Découvrez tous les bienfaits de la natation pour votre chien et les précautions indispensables pour une pratique sécurisée de cette activité aquatique.',
 contentHtml: `
-<p>La <strong>natation pour chien</strong> représente bien plus qu'un simple loisir estival. Cette activité aquatique constitue un véritable atout pour la santé physique et mentale de nos compagnons à quatre pattes. Selon une étude de l'American Veterinary Medical Association, 85% des vétérinaires recommandent la natation comme exercice thérapeutique pour les chiens souffrant d'arthrose ou de problèmes articulaires.</p>
+<p>La <strong>natation pour chien</strong> représente bien plus qu'un simple loisir estival. Cette activité aquatique constitue un véritable atout pour la santé physique et mentale de nos compagnons à quatre pattes. Selon une étude de l'American Veterinary Medical Association, 85% des vétérinaires recommandent la natation comme exercice thérapeutique pour les chiens souffrant d'<a href="/blog/arthrose-du-chien-symptomes-et-exercices-adaptes">arthrose</a> ou de problèmes articulaires.</p>
 
 <p>L'exercice aquatique offre un environnement sans impact qui préserve les articulations tout en sollicitant l'ensemble de la musculature canine. Les centres de rééducation vétérinaire rapportent des améliorations significatives chez 92% des chiens pratiquant régulièrement la natation thérapeutique. Cette activité s'adapte à tous les âges, des chiots en croissance aux seniors ayant besoin de maintenir leur mobilité.</p>
 
@@ -33,7 +33,7 @@ contentHtml: `
 
 <h3>Impact positif sur les articulations</h3>
 
-<p>L'hydrothérapie canine démontre une efficacité remarquable pour traiter diverses pathologies articulaires. Les vétérinaires orthopédistes observent une réduction de 75% des signes de douleur chez les chiens dysplasiques pratiquant la natation régulièrement.</p>
+<p>L'hydrothérapie canine démontre une efficacité remarquable pour traiter diverses pathologies articulaires. Les vétérinaires orthopédistes observent une réduction de 75% des signes de douleur chez les chiens <a href="/blog/age-chien-sante">dysplasiques</a> pratiquant la natation régulièrement.</p>
 
 <p>La pression hydrostatique de l'eau exerce un effet massant naturel qui diminue l'inflammation et favorise la résorption des œdèmes. Cette propriété s'avère particulièrement bénéfique lors de rééducation post-opératoire.</p>
 

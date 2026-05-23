@@ -10,13 +10,13 @@ const article = {
 
     <p>Une promenade mal planifiée peut entraîner des troubles comportementaux, de l'anxiété ou des problèmes de santé chez votre chien. À l'inverse, <strong>promener son chien</strong> de manière optimale améliore sa socialisation, maintient son poids de forme et renforce votre lien.</p>
 
-    <p>Les études vétérinaires récentes révèlent que 60% des chiens domestiques souffrent de surpoids, souvent lié à un manque d'exercice adapté. Cette réalité souligne l'urgence de maîtriser les bonnes pratiques de promenade.</p>
+    <p>Les études vétérinaires récentes révèlent que 60% des chiens domestiques souffrent de <a href="/blog/comment-savoir-si-mon-chien-est-en-surpoids-le-test-visuel">surpoids</a>, souvent lié à un manque d'exercice adapté. Cette réalité souligne l'urgence de maîtriser les bonnes pratiques de promenade.</p>
 
     <p>Dans ce guide complet, vous découvrirez les fréquences recommandées selon l'âge et la race, les durées optimales d'exercice, ainsi que les erreurs courantes qui compromettent l'efficacité de vos sorties.</p>
 
     <h2>Quelle fréquence pour promener son chien selon sa race et son âge</h2>
 
-    <p><strong>La fréquence idéale varie de 2 à 4 sorties quotidiennes selon la taille, l'âge et la race de votre chien.</strong> Les races de petite taille comme les Chihuahuas nécessitent généralement 2-3 sorties courtes par jour. Les races moyennes à grandes, telles que les Labradors ou Bergers Allemands, requièrent 3-4 sorties quotidiennes minimum.</p>
+    <p><strong>La fréquence idéale varie de 2 à 4 sorties quotidiennes selon la taille, l'âge et la <a href="/blog/exercice-selon-race">race</a> de votre chien.</strong> Les races de petite taille comme les Chihuahuas nécessitent généralement 2-3 sorties courtes par jour. Les races moyennes à grandes, telles que les Labradors ou Bergers Allemands, requièrent 3-4 sorties quotidiennes minimum.</p>
 
     <h3>Fréquence par catégorie de chien</h3>
 

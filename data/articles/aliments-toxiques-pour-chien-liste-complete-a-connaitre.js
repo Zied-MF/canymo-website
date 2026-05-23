@@ -8,7 +8,7 @@ const article = {
   contentHtml: `
     <p>Chaque année, plus de 180 000 chiens sont victimes d'intoxication alimentaire en France selon les statistiques vétérinaires. Les <strong>aliments toxiques pour chien</strong> représentent l'une des principales causes d'urgences vétérinaires, souvent par méconnaissance des propriétaires.</p>
     
-    <p>Certains aliments que nous consommons quotidiennement peuvent s'avérer mortels pour nos compagnons à quatre pattes. Le chocolat, les raisins, l'ail ou encore l'avocat contiennent des substances que l'organisme canin ne peut pas métaboliser correctement.</p>
+    <p>Certains aliments que nous consommons quotidiennement peuvent s'avérer mortels pour nos compagnons à quatre pattes. Le chocolat, les <a href="/blog/nutrition-chien-mythes">raisins</a>, l'ail ou encore l'avocat contiennent des substances que l'organisme canin ne peut pas métaboliser correctement.</p>
     
     <p>La prévention reste le meilleur remède contre ces accidents domestiques. Connaître précisément quels aliments éviter, comprendre les doses toxiques et identifier les premiers symptômes d'intoxication peut sauver la vie de votre chien.</p>
     
@@ -28,7 +28,7 @@ const article = {
 
     <h3>Raisins et Raisins Secs</h3>
     
-    <p>Les raisins frais et secs provoquent une insuffisance rénale aiguë chez 50% des chiens exposés selon l'École Nationale Vétérinaire d'Alfort. La substance toxique reste non identifiée, rendant impossible la détermination d'une dose "sûre".</p>
+    <p>Les raisins frais et secs provoquent une <a href="/blog/mon-chien-ne-mange-plus-causes-et-quand-sinquieter">insuffisance rénale</a> aiguë chez 50% des chiens exposés selon l'École Nationale Vétérinaire d'Alfort. La substance toxique reste non identifiée, rendant impossible la détermination d'une dose "sûre".</p>
     
     <p>Même une petite quantité peut s'avérer mortelle : 3 raisins secs ont suffi à intoxiquer gravement un chien de 18 kg documenté dans une étude vétérinaire de 2021.</p>
     

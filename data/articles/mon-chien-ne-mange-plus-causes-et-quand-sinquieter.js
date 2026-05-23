@@ -20,13 +20,13 @@ const article = {
 
     <p>Les troubles digestifs constituent la première cause d'anorexie chez le chien. Une inflammation de l'estomac, des intestins ou du foie peut provoquer une perte d'appétit immédiate. Les infections bactériennes ou virales affectent également l'envie de manger.</p>
 
-    <p>Les problèmes dentaires touchent près de 80% des chiens de plus de 3 ans. Une dent cassée, une gingivite ou un abcès rendent la mastication douloureuse. Le chien associe alors la douleur à l'acte de manger et évite sa gamelle.</p>
+    <p>Les <a href="/blog/age-chien-sante">problèmes dentaires</a> touchent près de 80% des chiens de plus de 3 ans. Une dent cassée, une gingivite ou un abcès rendent la mastication douloureuse. Le chien associe alors la douleur à l'acte de manger et évite sa gamelle.</p>
 
     <p>D'autres pathologies peuvent expliquer cette perte d'appétit :</p>
     
     <ul>
       <li><strong>Infections urinaires</strong> : provoquent douleur et inconfort</li>
-      <li><strong>Troubles hormonaux</strong> : hypothyroïdie, diabète</li>
+      <li><strong>Troubles hormonaux</strong> : <a href="/blog/cavalier-king-charles-sante-poids-et-activite">hypothyroïdie, diabète</a></li>
       <li><strong>Douleurs articulaires</strong> : arthrose, dysplasie</li>
       <li><strong>Parasites intestinaux</strong> : vers, giardia</li>
       <li><strong>Effets secondaires médicamenteux</strong> : antibiotiques, anti-inflammatoires</li>

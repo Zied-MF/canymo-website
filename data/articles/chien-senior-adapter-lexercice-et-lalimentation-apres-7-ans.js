@@ -34,13 +34,13 @@ const article = {
 
     <p>L'exercice reste crucial pour le <strong>chien senior</strong>, mais doit être modifié en intensité et en durée. L'objectif est de maintenir la mobilité articulaire et la masse musculaire tout en respectant les limitations physiques croissantes. Les vétérinaires recommandent une réduction de 25 à 40% de l'intensité des exercices par rapport à l'âge adulte.</p>
 
-    <p>Les activités à faible impact deviennent prioritaires. La natation est particulièrement bénéfique car elle sollicite les muscles sans stress articulaire. Une séance de 15-20 minutes de nage équivaut à 45 minutes de marche en termes de dépense énergétique selon l'American College of Veterinary Sports Medicine.</p>
+    <p>Les activités à faible impact deviennent prioritaires. La <a href="/blog/natation-pour-chien-bienfaits-et-precautions">natation</a> est particulièrement bénéfique car elle sollicite les muscles sans stress articulaire. Une séance de 15-20 minutes de nage équivaut à 45 minutes de marche en termes de dépense énergétique selon l'American College of Veterinary Sports Medicine.</p>
 
     <h3>Exercices recommandés pour les chiens seniors</h3>
 
     <ul>
       <li><strong>Marches courtes et fréquentes</strong> : 2-3 sorties de 15-20 minutes plutôt qu'une longue promenade</li>
-      <li><strong>Natation supervisée</strong> : idéale pour l'arthrose, 2 fois par semaine maximum</li>
+      <li><strong>Natation supervisée</strong> : idéale pour l'<a href="/blog/arthrose-du-chien-symptomes-et-exercices-adaptes">arthrose</a>, 2 fois par semaine maximum</li>
       <li><strong>Jeux mentaux</strong> : puzzles alimentaires et exercices de stimulation cognitive</li>
       <li><strong>Étirements passifs</strong> : mobilisation douce des articulations</li>
       <li><strong>Montée d'escaliers modérée</strong> : maintient la force musculaire</li>

@@ -14,7 +14,7 @@ contentHtml: `
 
 <h2>Les Causes Génétiques du Beagle Surpoids</h2>
 
-<p>La prédisposition génétique constitue le facteur principal expliquant pourquoi les Beagles développent facilement un surpoids. Une étude publiée dans le Journal of Veterinary Internal Medicine révèle que 23% des Beagles portent une mutation du gène POMC (pro-opiomélanocortine).</p>
+<p>La prédisposition génétique constitue le facteur principal expliquant pourquoi les Beagles développent facilement un <a href="/blog/surpoids-chien-dangers">surpoids</a>. Une étude publiée dans le Journal of Veterinary Internal Medicine révèle que 23% des Beagles portent une mutation du gène POMC (pro-opiomélanocortine).</p>
 
 <p>Cette mutation altère la production d'hormones régulant l'appétit et la satiété. Les chiens porteurs de cette anomalie génétique présentent une augmentation de 25% de leur motivation alimentaire comparativement aux Beagles non porteurs.</p>
 
@@ -84,7 +84,7 @@ contentHtml: `
 
 <ul>
 <li>Marche rapide : 45 minutes par jour minimum</li>
-<li>Jeux de pistage : 15 minutes, 3 fois par semaine</li>
+<li><a href="/blog/exercice-selon-race">Jeux de pistage</a> : 15 minutes, 3 fois par semaine</li>
 <li>Course libre sécurisée : 20 minutes, 2 fois par semaine</li>
 <li>Activités aquatiques : excellente alternative pour les chiens arthrosiques</li>
 </ul>

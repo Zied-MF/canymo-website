@@ -8,7 +8,7 @@ const article = {
   contentHtml: `
     <p>Le <strong>Berger Allemand exercice</strong> nécessite une approche particulière en raison de la prédisposition de cette race aux problèmes articulaires. Ces chiens athlétiques ont besoin d'activité physique régulière pour maintenir leur bien-être, mais leurs articulations fragiles exigent des précautions spécifiques.</p>
 
-    <p>Selon les études vétérinaires, 35% des Bergers Allemands développent une dysplasie de la hanche avant l'âge de 8 ans. Cette statistique alarmante souligne l'importance d'adapter leur programme d'exercices dès le plus jeune âge.</p>
+    <p>Selon les études vétérinaires, 35% des Bergers Allemands développent une <a href="/blog/age-chien-sante">dysplasie</a> de la hanche avant l'âge de 8 ans. Cette statistique alarmante souligne l'importance d'adapter leur programme d'exercices dès le plus jeune âge.</p>
 
     <p>L'exercice approprié peut considérablement réduire les risques de complications articulaires tout en préservant la vitalité naturelle de ces chiens de travail. Un programme bien conçu permet de maintenir la masse musculaire qui soutient les articulations fragiles.</p>
 
@@ -65,7 +65,7 @@ const article = {
       <li>Jeux de socialisation avec d'autres chiots</li>
       <li>Promenades courtes sur terrain souple</li>
       <li>Exercices d'obéissance de base</li>
-      <li>Natation supervisée (excellente pour les articulations)</li>
+      <li><a href="/blog/natation-pour-chien-bienfaits-et-precautions">Natation supervisée</a> (excellente pour les articulations)</li>
     </ul>
 
     <h3>Adolescent (1-2 ans)</h3>

@@ -6,7 +6,7 @@ const article = {
   color: '#7a5c1e',
   excerpt: 'Découvrez le poids idéal pour votre chien selon sa race avec notre tableau complet. Guide expert pour maintenir votre compagnon en parfaite santé.',
   contentHtml: `
-    <p>Le maintien d'un <strong>poids idéal chien race</strong> constitue l'un des piliers fondamentaux de la santé canine. Selon l'Association Vétérinaire Mondiale, plus de 56% des chiens domestiques présentent un surpoids, réduisant leur espérance de vie de 2,5 ans en moyenne. Chaque race possède ses propres standards pondéraux, déterminés par sa génétique, sa morphologie et sa fonction d'origine.</p>
+    <p>Le maintien d'un <strong>poids idéal chien race</strong> constitue l'un des piliers fondamentaux de la santé canine. Selon l'Association Vétérinaire Mondiale, plus de 56% des chiens domestiques présentent un <a href="/blog/surpoids-chien-dangers">surpoids</a>, réduisant leur espérance de vie de 2,5 ans en moyenne. Chaque race possède ses propres standards pondéraux, déterminés par sa génétique, sa morphologie et sa fonction d'origine.</p>
 
     <p>Les variations peuvent être considérables : un Chihuahua adulte pèse entre 1,5 et 3 kg, tandis qu'un Dogue Allemand peut atteindre 90 kg. Cette diversité rend crucial l'usage de références spécifiques à chaque race pour évaluer correctement l'état corporel de votre compagnon.</p>
 
@@ -83,7 +83,7 @@ const article = {
 
     <h2>Méthodes d'Évaluation du Poids Idéal Chien Race</h2>
 
-    <p>L'évaluation précise du <strong>poids idéal chien race</strong> nécessite une approche méthodique combinant pesée régulière et examen morphologique. Les vétérinaires utilisent le Body Condition Score (BCS), échelle de 1 à 9 développée par l'Association Américaine des Hôpitaux Vétérinaires.</p>
+    <p>L'évaluation précise du <strong>poids idéal chien race</strong> nécessite une approche méthodique combinant pesée régulière et examen morphologique. Les vétérinaires utilisent le <a href="/blog/comment-savoir-si-mon-chien-est-en-surpoids-le-test-visuel">Body Condition Score (BCS)</a>, échelle de 1 à 9 développée par l'Association Américaine des Hôpitaux Vétérinaires.</p>
 
     <p>Cette grille d'évaluation objective permet d'identifier les écarts pondéraux avant qu'ils n'impactent la santé. Un score de 4-5/9 correspond au poids optimal, tandis que 6-7 indique un surpoids et 8-9 une obésité clinique.</p>
 

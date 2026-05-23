@@ -51,7 +51,7 @@ const article = {
 
     <h2>Comment débuter l'alimentation BARF pour chien en sécurité</h2>
 
-    <p>La transition vers le <strong>barf chien</strong> doit s'effectuer progressivement sur une période de 7 à 14 jours minimum. Une approche trop rapide peut provoquer des troubles digestifs temporaires, particulièrement chez les chiens habitués aux croquettes depuis longtemps.</p>
+    <p>La <a href="/blog/nutrition-chien-mythes">transition</a> vers le <strong>barf chien</strong> doit s'effectuer progressivement sur une période de 7 à 14 jours minimum. Une approche trop rapide peut provoquer des troubles digestifs temporaires, particulièrement chez les chiens habitués aux croquettes depuis longtemps.</p>
 
     <p>Commencez par introduire une seule source de protéine, généralement le poulet, qui est bien toléré par la majorité des chiens. Mélangez initialement 25% de BARF avec 75% de l'ancienne alimentation, puis augmentez progressivement la proportion sur deux semaines.</p>
 

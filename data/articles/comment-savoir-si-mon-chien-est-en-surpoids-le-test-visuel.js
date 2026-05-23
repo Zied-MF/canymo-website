@@ -92,7 +92,7 @@ const article = {
 
     <p><strong>Une consultation s'impose dès la détection d'un surpoids, même léger.</strong> Le vétérinaire confirmera votre diagnostic par une pesée précise et écartera d'éventuelles causes médicales comme l'hypothyroïdie ou le syndrome de Cushing.</p>
 
-    <p>Certains signes associés nécessitent une consultation d'urgence : essoufflement au repos, réticence marquée à l'exercice, boiteries ou changements comportementaux significatifs. Ces symptômes peuvent révéler des complications déjà installées.</p>
+    <p>Certains signes associés nécessitent une consultation d'urgence : essoufflement au repos, réticence marquée à l'<a href="/blog/exercice-selon-race">exercice</a>, boiteries ou changements comportementaux significatifs. Ces symptômes peuvent révéler des complications déjà installées.</p>
 
     <p>Le professionnel établira un bilan complet incluant un examen clinique approfondi, des analyses sanguines si nécessaire, et un programme nutritionnel personnalisé. Cette approche médicalisée multiplie par trois les chances de succès selon les statistiques professionnelles.</p>
 

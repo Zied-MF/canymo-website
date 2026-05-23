@@ -10,7 +10,7 @@ const article = {
     
     <p>Avec une espérance de vie moyenne de 12 à 15 ans, le Cavalier King Charles Spaniel peut vivre une vie épanouie à condition de bénéficier des soins appropriés. La surveillance de son poids, l'adaptation de son activité physique et la prévention des maladies héréditaires constituent les piliers d'une santé optimale.</p>
     
-    <p>Cet article vous guide à travers tous les aspects essentiels de la <strong>Cavalier King Charles santé</strong> : des pathologies cardiaques aux troubles neurologiques, en passant par la gestion du poids et les recommandations d'exercice. Vous découvrirez également les signes d'alerte à surveiller et les mesures préventives à adopter pour préserver le bien-être de votre compagnon tout au long de sa vie.</p>
+    <p>Cet article vous guide à travers tous les aspects essentiels de la <strong>Cavalier King Charles santé</strong> : des pathologies <a href="/blog/age-chien-sante">cardiaques</a> aux troubles neurologiques, en passant par la gestion du poids et les recommandations d'exercice. Vous découvrirez également les signes d'alerte à surveiller et les mesures préventives à adopter pour préserver le bien-être de votre compagnon tout au long de sa vie.</p>
 
     <h2>Les principales maladies du Cavalier King Charles santé</h2>
     
@@ -40,7 +40,7 @@ const article = {
 
     <h2>Poids idéal et gestion nutritionnelle du Cavalier King Charles santé</h2>
     
-    <p>Le maintien d'un poids optimal constitue un facteur clé pour préserver la <strong>Cavalier King Charles santé</strong>. Un surpoids aggrave considérablement les problèmes cardiaques déjà présents chez cette race.</p>
+    <p>Le maintien d'un poids optimal constitue un facteur clé pour préserver la <strong>Cavalier King Charles santé</strong>. Un <a href="/blog/labrador-exercice-alimentation-et-gestion-du-poids">surpoids</a> aggrave considérablement les problèmes cardiaques déjà présents chez cette race.</p>
     
     <h3>Standards de poids selon l'âge</h3>
     

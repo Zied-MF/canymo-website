@@ -40,7 +40,7 @@ const article = {
     
     <h3>Les Repas à Heures Fixes</h3>
     
-    <p>L'alimentation constitue l'ancrage temporel principal de la journée canine. Les chiens adultes bénéficient idéalement de deux repas quotidiens espacés de 8 à 12 heures.</p>
+    <p>L'alimentation constitue l'ancrage temporel principal de la journée canine. Les chiens adultes bénéficient idéalement de deux <a href="/blog/mon-chien-ne-mange-plus-causes-et-quand-sinquieter">repas</a> quotidiens espacés de 8 à 12 heures.</p>
     
     <p>Le système digestif canin s'adapte aux horaires alimentaires en 7 à 10 jours. Une fois établie, cette routine stimule naturellement la production d'enzymes digestives aux moments appropriés, optimisant l'assimilation nutritionnelle.</p>
     
@@ -55,7 +55,7 @@ const article = {
     
     <p>L'activité physique régulière maintient la santé cardiovasculaire et musculaire tout en évacuant l'énergie accumulée. Les besoins varient selon la race, l'âge et la condition physique individuelle.</p>
     
-    <p>Une étude de l'Association Française des Vétérinaires établit qu'un chien adulte nécessite en moyenne 60 à 90 minutes d'activité quotidienne réparties en plusieurs sorties. Cette durée inclut les promenades, les jeux et les exercices spécifiques.</p>
+    <p>Une étude de l'Association Française des Vétérinaires établit qu'un chien adulte nécessite en moyenne 60 à 90 minutes d'activité quotidienne réparties en plusieurs sorties. Cette durée inclut les promenades, les jeux et les <a href="/blog/exercice-selon-race">exercices</a> spécifiques.</p>
     
     <ul>
       <li><strong>Sortie matinale :</strong> 20-30 minutes pour les besoins physiologiques</li>

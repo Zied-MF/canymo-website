@@ -6,7 +6,7 @@ const article = {
   color: '#7a5c1e',
   excerpt: 'L\'arthrose touche 65% des chiens seniors. Découvrez les symptômes à surveiller et les exercices thérapeutiques pour améliorer le confort de votre compagnon.',
   contentHtml: `
-    <p>L'<strong>arthrose du chien</strong> représente l'une des affections articulaires les plus communes chez nos compagnons à quatre pattes. Cette maladie dégénérative touche environ 65% des chiens âgés de plus de 7 ans selon l'Association Vétérinaire Française. Contrairement aux idées reçues, l'arthrose canine ne concerne pas uniquement les chiens seniors : elle peut également affecter les jeunes animaux suite à des traumatismes ou des prédispositions génétiques.</p>
+    <p>L'<strong>arthrose du chien</strong> représente l'une des affections articulaires les plus communes chez nos compagnons à quatre pattes. Cette maladie dégénérative touche environ 65% des chiens âgés de plus de 7 ans selon l'Association Vétérinaire Française. Contrairement aux idées reçues, l'arthrose canine ne concerne pas uniquement les <a href="/blog/chien-senior-adapter-lexercice-et-lalimentation-apres-7-ans">chiens seniors</a> : elle peut également affecter les jeunes animaux suite à des traumatismes ou des prédispositions génétiques.</p>
 
     <p>Les conséquences de cette pathologie sur la qualité de vie sont considérables. Un chien arthrosique voit sa mobilité réduite, ressent des douleurs chroniques et peut développer des troubles comportementaux. Heureusement, une prise en charge adaptée incluant des exercices thérapeutiques spécifiques peut considérablement améliorer son confort au quotidien. La clé du succès réside dans une détection précoce des symptômes et la mise en place d'un programme d'activités physiques personnalisé.</p>
 
@@ -87,7 +87,7 @@ const article = {
     <p>L'hydrothérapie constitue la modalité thérapeutique de choix pour les chiens arthrosiques :</p>
 
     <ul>
-      <li><strong>Natation libre :</strong> Exercice complet sans impact articulaire, sessions de 10-15 minutes</li>
+      <li><strong><a href="/blog/natation-pour-chien-bienfaits-et-precautions">Natation libre :</a></strong> Exercice complet sans impact articulaire, sessions de 10-15 minutes</li>
       <li><strong>Marche sur tapis aquatique :</strong> Rééducation progressive de la marche, résistance modulable</li>
       <li><strong>Exercices statiques en piscine :</strong> Renforcement musculaire ciblé, amélioration de l'équilibre</li>
       <li><strong>Balnéothérapie :</strong> Bains thérapeutiques à température contrôlée (32-35°C)</li>

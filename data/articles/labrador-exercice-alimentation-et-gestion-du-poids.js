@@ -29,7 +29,7 @@ const article = {
     <p><strong>Labrador adulte (1-7 ans) :</strong></p>
     <ul>
       <li>60-90 minutes d'activité quotidienne</li>
-      <li>Natation : exercice idéal pour cette race</li>
+      <li><a href="/blog/natation-pour-chien-bienfaits-et-precautions">Natation</a> : exercice idéal pour cette race</li>
       <li>Randonnées et jogging modéré</li>
       <li>Sports canins : agility, frisbee, rapport d'objets</li>
     </ul>

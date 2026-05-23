@@ -14,7 +14,7 @@ const article = {
 
     <h2>Besoins d'Exercice du Golden Retriever par Âge</h2>
 
-    <p>Les besoins en golden retriever exercice évoluent considérablement selon l'âge de votre compagnon. Une approche personnalisée garantit un développement harmonieux et prévient les blessures.</p>
+    <p>Les besoins en golden retriever exercice évoluent considérablement selon l'âge de votre compagnon. Une approche personnalisée garantit un développement harmonieux et prévient les <a href="/blog/age-chien-sante">blessures</a>.</p>
 
     <h3>Chiot Golden Retriever (2-6 mois)</h3>
 
@@ -37,7 +37,7 @@ const article = {
       <li>Promenades actives de 20-30 minutes</li>
       <li>Sessions de jeu libre de 15-20 minutes</li>
       <li>Entraînement d'obéissance de 10-15 minutes</li>
-      <li>Natation supervisée 2-3 fois par semaine</li>
+      <li><a href="/blog/natation-pour-chien-bienfaits-et-precautions">Natation supervisée</a> 2-3 fois par semaine</li>
     </ul>
 
     <h3>Adulte (2-7 ans)</h3>

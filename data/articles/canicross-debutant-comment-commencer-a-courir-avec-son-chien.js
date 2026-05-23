@@ -172,7 +172,7 @@ const article = {
 
     <h3>À partir de quel âge un chien peut-il pratiquer le canicross ?</h3>
 
-    <p>Un chien peut débuter le canicross à partir de 12-15 mois, une fois sa croissance terminée. Pour les grandes races, il est préférable d'attendre 18 mois pour éviter tout risque de dysplasie. Une visite vétérinaire préalable est indispensable pour valider l'aptitude physique du chien à la traction.</p>
+    <p>Un chien peut débuter le canicross à partir de 12-15 mois, une fois sa croissance terminée. Pour les grandes races, il est préférable d'attendre 18 mois pour éviter tout risque de <a href="/blog/berger-allemand-activite-physique-et-problemes-articulaires">dysplasie</a>. Une visite vétérinaire préalable est indispensable pour valider l'aptitude physique du chien à la traction.</p>
 
     <h3>Quelle est la durée idéale d'une sortie canicross pour débuter ?</h3>
 

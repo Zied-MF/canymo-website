@@ -81,7 +81,7 @@ const article = {
 <p>Recommandations pour préserver les articulations du chiot :</p>
 
 <ul>
-  <li><strong>Exercice limité</strong> : 5 minutes par mois d'âge, deux fois par jour</li>
+  <li><strong><a href="/blog/exercice-selon-race">Exercice limité</a></strong> : 5 minutes par mois d'âge, deux fois par jour</li>
   <li><strong>Pas de sauts répétés</strong> : éviter les escaliers, les sauts du canapé</li>
   <li><strong>Surfaces souples</strong> : privilégier l'herbe et la terre au béton</li>
   <li><strong>Alimentation adaptée</strong> : croquettes "croissance" avec ratio calcium/phosphore contrôlé (1,2:1)</li>
@@ -247,7 +247,7 @@ const article = {
 <p>Les maladies les plus courantes chez le chien très âgé sont :</p>
 
 <ul>
-  <li><strong>Arthrose</strong> : touche 80 % des chiens de plus de 8 ans, traitement multimodal (anti-inflammatoires, physiothérapie, suppléments)</li>
+  <li><strong><a href="/blog/arthrose-du-chien-symptomes-et-exercices-adaptes">Arthrose</a></strong> : touche 80 % des chiens de plus de 8 ans, traitement multimodal (anti-inflammatoires, physiothérapie, suppléments)</li>
   <li><strong>Insuffisance rénale chronique</strong> : 10 % des chiens de plus de 10 ans, détectable par bilan sanguin</li>
   <li><strong>Insuffisance cardiaque</strong> : surtout chez les petites races (maladie valvulaire)</li>
   <li><strong>Tumeurs</strong> : 50 % des chiens de plus de 10 ans développent un cancer</li>

@@ -53,7 +53,7 @@ const article = {
 
     <h2>Les causes principales de l'ennui chez le chien qui s'ennuie</h2>
     
-    <p><strong>Réponse directe :</strong> L'ennui canin résulte principalement de trois facteurs : manque d'exercice physique, absence de stimulation mentale et routine trop prévisible. Les chiens ont besoin de 1 à 3 heures d'activité quotidienne selon leur race.</p>
+    <p><strong>Réponse directe :</strong> L'ennui canin résulte principalement de trois facteurs : manque d'<a href="/blog/exercice-selon-race">exercice</a> physique, absence de stimulation mentale et routine trop prévisible. Les chiens ont besoin de 1 à 3 heures d'activité quotidienne selon leur race.</p>
 
     <h3>Manque d'exercice physique</h3>
     <p>Les chiens ont des besoins énergétiques variables selon leur race, âge et taille. Un Husky Sibérien nécessite 2-3 heures d'exercice quotidien, tandis qu'un Bouledogue français se contente de 30-60 minutes.</p>
@@ -77,7 +77,7 @@ const article = {
     <h3>Augmentation progressive de l'activité physique</h3>
     <p>Commencez par augmenter de 30% la durée des promenades quotidiennes. Cette progression graduelle évite les blessures tout en répondant aux besoins énergétiques du chien.</p>
     
-    <p>Introduisez des activités variées : course, natation, jeux de balle ou agility selon les préférences et capacités de votre animal.</p>
+    <p>Introduisez des activités variées : course, <a href="/blog/natation-pour-chien-bienfaits-et-precautions">natation</a>, jeux de balle ou agility selon les préférences et capacités de votre animal.</p>
 
     <h3>Enrichissement de l'environnement</h3>
     <p>Transformez l'espace de vie de votre chien avec des éléments stimulants. Les jouets puzzle, distributeurs de friandises et tapis de fouille offrent des défis mentaux quotidiens.</p>

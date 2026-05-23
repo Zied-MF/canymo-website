@@ -1,5 +1,6 @@
 const article = {
   slug: 'arthrose-chien-symptomes-exercices-adaptes',
+  category: 'Santé',
   title: 'Arthrose du Chien : Symptômes et Exercices Adaptés pour Soulager la Douleur',
   date: '14 avril 2026',
   color: '#7a5c1e',

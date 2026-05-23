@@ -1,5 +1,6 @@
 const article = {
   slug: 'surpoids-chien-dangers',
+  category: 'Santé',
   title: 'Chien en Surpoids : Dangers et Solutions Efficaces',
   date: '12 mars 2025',
   color: '#2D6444',

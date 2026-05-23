@@ -1,5 +1,6 @@
 const article = {
   slug: 'exercice-selon-race',
+  category: 'Exercice',
   title: 'Exercice Chien : Combien de Temps Selon la Race ?',
   date: '5 mars 2025',
   color: '#C9A84C',

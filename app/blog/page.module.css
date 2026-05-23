@@ -46,8 +46,65 @@
 }
 
 .gridSection {
-  padding: 80px 0;
+  padding: 60px 0 80px;
   background: var(--cream);
+}
+
+/* ---- Filter pills ---- */
+.filterBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 48px;
+}
+
+.pill {
+  padding: 8px 20px;
+  border-radius: 100px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  border: 1.5px solid rgba(28, 61, 42, 0.18);
+  background: transparent;
+  color: var(--green-dark);
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  font-family: inherit;
+}
+
+.pill:hover {
+  border-color: var(--green-dark);
+  background: rgba(28, 61, 42, 0.05);
+}
+
+.pillActive {
+  color: #fff;
+  border-color: transparent;
+  background: var(--green-dark);
+}
+
+/* ---- Empty state ---- */
+.empty {
+  text-align: center;
+  color: var(--green-dark);
+  opacity: 0.5;
+  font-size: 0.95rem;
+  padding: 60px 0;
+}
+
+/* ---- Category badge on card ---- */
+.cardCategory {
+  position: absolute;
+  bottom: 12px;
+  left: 16px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 100px;
+  backdrop-filter: blur(4px);
 }
 
 .grid {

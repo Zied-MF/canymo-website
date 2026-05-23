@@ -1,5 +1,6 @@
 const article = {
   slug: 'nutrition-chien-mythes',
+  category: 'Nutrition',
   title: '5 Mythes sur la Nutrition Canine à Oublier Définitivement',
   date: '26 février 2025',
   color: '#1C3D2A',

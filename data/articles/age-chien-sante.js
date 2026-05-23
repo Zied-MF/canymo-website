@@ -1,5 +1,6 @@
 const article = {
   slug: 'age-chien-sante',
+  category: 'Santé',
   title: "Santé du Chien Selon l'Âge : Ce Qui Change à Chaque Étape",
   date: '18 février 2025',
   color: '#7a5c1e',

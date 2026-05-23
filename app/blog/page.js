@@ -1,6 +1,6 @@
-import Link from 'next/link'
 import FadeUp from '@/components/FadeUp/FadeUp'
 import { articles } from '@/data/articles/index'
+import BlogClient from './BlogClient'
 import styles from './page.module.css'
 
 export const metadata = {
@@ -32,23 +32,7 @@ export default function Blog() {
 
       <section className={styles.gridSection}>
         <div className={styles.container}>
-          <div className={styles.grid}>
-            {articles.map((article, i) => (
-              <FadeUp key={article.slug} delay={i * 100}>
-                <Link href={`/blog/${article.slug}`} className={styles.card}>
-                  <div className={styles.cardImage} style={{ background: article.color }}>
-                    <div className={styles.cardEmoji}>🐾</div>
-                  </div>
-                  <div className={styles.cardBody}>
-                    <span className={styles.cardDate}>{article.date}</span>
-                    <h2 className={styles.cardTitle}>{article.title}</h2>
-                    <p className={styles.cardExcerpt}>{article.excerpt}</p>
-                    <span className={styles.cardCta}>Lire l'article →</span>
-                  </div>
-                </Link>
-              </FadeUp>
-            ))}
-          </div>
+          <BlogClient articles={articles} />
         </div>
       </section>
 

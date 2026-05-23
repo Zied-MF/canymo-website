@@ -1,5 +1,6 @@
 const article = {
   slug: 'promener-son-chien-frequence-duree-erreurs-a-eviter',
+  category: 'Exercice',
   title: 'Promener son Chien : Guide Complet sur la Fréquence, Durée et Erreurs à Éviter',
   date: '17 avril 2026',
   color: '#7a5c1e',

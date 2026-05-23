@@ -1,6 +1,7 @@
 import dynamic from 'next/dynamic'
 import { notFound } from 'next/navigation'
 import { articles } from '@/data/articles/index'
+import { CATEGORY_COLORS } from '@/data/categories'
 import StructuredData from '@/components/StructuredData/StructuredData'
 import ArticleHero from '@/components/ArticleHero/ArticleHero'
 import styles from './page.module.css'
@@ -167,7 +168,7 @@ export default async function ArticlePage({ params }) {
         title={article.title}
         date={article.date}
         excerpt={article.excerpt}
-        color={article.color}
+        color={CATEGORY_COLORS[article.category] || article.color}
       />
 
       {/* Article Body */}

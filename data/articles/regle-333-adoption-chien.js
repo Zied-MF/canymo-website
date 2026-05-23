@@ -1,5 +1,6 @@
 const article = {
   slug: 'regle-333-adoption-chien',
+  category: 'Comportement',
   title: "Règle du 3-3-3 Chien : Comprendre l'Adaptation Après Adoption",
   date: '11 mars 2025',
   color: '#3d6b8e',

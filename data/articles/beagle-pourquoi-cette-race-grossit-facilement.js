@@ -1,5 +1,6 @@
 const article = {
 slug: 'beagle-surpoids-pourquoi-cette-race-grossit-facilement',
+  category: 'Race',
 title: 'Beagle Surpoids : Pourquoi Cette Race Grossit Facilement et Comment L\'Éviter',
 date: '19 avril 2026',
 color: '#7a5c1e',
@@ -123,6 +124,8 @@ contentHtml: `
 <h3>Combien de temps faut-il pour faire perdre du poids à un Beagle en surpoids ?</h3>
 
 <p>Un programme de perte de poids efficace et sécurisé pour un Beagle s'étale sur 4 à 8 mois selon l'excès pondéral initial. L'objectif recommandé est une perte de 1 à 2% du poids corporel par semaine maximum. Une perte plus rapide risque de compromettre la masse musculaire et de créer des carences nutritionnelles. La patience et la régularité sont essentielles pour un résultat durable.</p>
+
+<h2>Conclusion</h2>
 
 <p>La prédisposition au <strong>beagle surpoids</strong> résulte d'une combinaison complexe de facteurs génétiques, comportementaux et environnementaux spécifiques à cette race. La mutation génétique affectant la régulation de l'appétit, couplée aux comportements alimentaires hérités de l'instinct de meute, crée un terrain particulièrement favorable au développement de l'obésité.</p>
 

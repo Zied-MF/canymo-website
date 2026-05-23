@@ -1,5 +1,6 @@
 const article = {
   slug: 'canicross-debutant-comment-commencer-courir-avec-son-chien',
+  category: 'Exercice',
   title: 'Canicross Débutant : Comment Commencer à Courir avec son Chien',
   date: '21 avril 2026',
   color: '#7a5c1e',

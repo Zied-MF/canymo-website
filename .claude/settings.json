@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -h \"date:\" /Users/ziedfekih/Documents/canymo-website/data/articles/*.js)",
+      "Bash(grep -h \"color:\" /Users/ziedfekih/Documents/canymo-website/data/articles/*.js)",
+      "Bash(ls /Users/ziedfekih/Documents/canymo-website/data/articles/*.js)",
+      "Bash(grep -h \"slug:\\\\|category:\\\\|color:\" /Users/ziedfekih/Documents/canymo-website/data/articles/*.js)",
+      "Bash(sed -i '' \"s/slug: ''surpoids-chien-dangers''/slug: ''surpoids-chien-dangers'',\\\\n  category: ''Santé''/\" /Users/ziedfekih/Documents/canymo-website/data/articles/surpoids-chien-dangers.js)",
+      "Bash(sed -i '' \"s/slug: ''exercice-selon-race''/slug: ''exercice-selon-race'',\\\\n  category: ''Exercice''/\" /Users/ziedfekih/Documents/canymo-website/data/articles/exercice-selon-race.js)",
+      "Bash(sed -i '' \"s/slug: ''nutrition-chien-mythes''/slug: ''nutrition-chien-mythes'',\\\\n  category: ''Nutrition''/\" /Users/ziedfekih/Documents/canymo-website/data/articles/nutrition-chien-mythes.js)",
+      "Bash(sed -i '' \"s/slug: ''age-chien-sante''/slug: ''age-chien-sante'',\\\\n  category: ''Santé''/\" /Users/ziedfekih/Documents/canymo-website/data/articles/age-chien-sante.js)",
+      "Bash(sed -i '' \"s/slug: ''regle-333-adoption-chien''/slug: ''regle-333-adoption-chien'',\\\\n  category: ''Comportement''/\" /Users/ziedfekih/Documents/canymo-website/data/articles/regle-333-adoption-chien.js)",
+      "Bash(grep -h \"category:\" /Users/ziedfekih/Documents/canymo-website/data/articles/*.js)"
+    ]
+  }
+}

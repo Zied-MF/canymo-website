@@ -1,5 +1,6 @@
 const article = {
   slug: 'mon-chien-ne-mange-plus-causes-et-quand-sinquieter',
+  category: 'Santé',
   title: 'Mon Chien Ne Mange Plus : Causes et Quand S\'inquiéter',
   date: '12 avril 2026',
   color: '#7a5c1e',

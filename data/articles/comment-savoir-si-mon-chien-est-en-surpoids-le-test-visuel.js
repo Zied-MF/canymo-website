@@ -1,5 +1,6 @@
 const article = {
   slug: 'comment-savoir-si-mon-chien-est-en-surpoids-test-visuel',
+  category: 'Santé',
   title: 'Comment Savoir si Mon Chien est en Surpoids : Le Test Visuel',
   date: '7 mai 2026',
   color: '#7a5c1e',

@@ -1,5 +1,6 @@
 const article = {
   slug: 'chien-qui-mange-trop-vite-dangers-et-solutions',
+  category: 'Santé',
   title: 'Chien qui Mange Trop Vite : Dangers et Solutions Efficaces',
   date: '9 mai 2026',
   color: '#7a5c1e',

@@ -1,5 +1,6 @@
 const article = {
   slug: 'aliments-toxiques-chien-liste-complete',
+  category: 'Nutrition',
   title: 'Aliments Toxiques pour Chien : Liste Complète à Connaître Absolument',
   date: '3 mai 2026',
   color: '#7a5c1e',

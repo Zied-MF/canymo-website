@@ -1,5 +1,6 @@
 const article = {
   slug: 'chien-senior-adapter-exercice-alimentation-apres-7-ans',
+  category: 'Santé',
   title: 'Chien Senior : Adapter l'Exercice et l'Alimentation Après 7 Ans',
   date: '15 mai 2026',
   color: '#7a5c1e',

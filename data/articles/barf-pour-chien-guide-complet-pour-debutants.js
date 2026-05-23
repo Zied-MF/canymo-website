@@ -1,5 +1,6 @@
 const article = {
   slug: 'barf-pour-chien-guide-complet-debutants',
+  category: 'Nutrition',
   title: 'BARF pour Chien : Guide Complet pour Débutants en 2026',
   date: '25 avril 2026',
   color: '#7a5c1e',

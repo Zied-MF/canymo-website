@@ -1,5 +1,6 @@
 const article = {
   slug: 'cavalier-king-charles-sante-poids-activite',
+  category: 'Race',
   title: 'Cavalier King Charles : Guide Complet Santé, Poids et Activité',
   date: '5 mai 2026',
   color: '#7a5c1e',

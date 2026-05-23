@@ -1,5 +1,6 @@
 const article = {
   slug: 'chien-qui-s-ennuie-7-signes-comment-y-remedier',
+  category: 'Comportement',
   title: 'Chien qui S\'ennuie : 7 Signes et Comment y Remédier',
   date: '17 mai 2026',
   color: '#7a5c1e',

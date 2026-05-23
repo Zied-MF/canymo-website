@@ -1,5 +1,6 @@
 const article = {
   slug: 'routine-quotidienne-chien-importance-horaires',
+  category: 'Comportement',
   title: 'Routine Quotidienne pour Chien : L\'Importance des Horaires Fixes',
   date: '27 avril 2026',
   color: '#7a5c1e',

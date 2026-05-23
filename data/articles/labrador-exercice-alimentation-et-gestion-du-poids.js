@@ -1,5 +1,6 @@
 const article = {
   slug: 'labrador-exercice-alimentation-gestion-poids',
+  category: 'Race',
   title: 'Labrador : Guide Complet Exercice, Alimentation et Gestion du Poids',
   date: '1 mai 2026',
   color: '#7a5c1e',

@@ -1,5 +1,6 @@
 const article = {
   slug: 'berger-allemand-exercice-problemes-articulaires',
+  category: 'Race',
   title: 'Berger Allemand Exercice : Guide Complet pour Prévenir les Problèmes Articulaires',
   date: '23 avril 2026',
   color: '#7a5c1e',

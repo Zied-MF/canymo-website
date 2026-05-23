@@ -1,5 +1,6 @@
 const article = {
 slug: 'natation-chien-bienfaits-precautions',
+  category: 'Exercice',
 title: 'Natation pour Chien : Bienfaits et Précautions Essentielles',
 date: '13 mai 2026',
 color: '#7a5c1e',

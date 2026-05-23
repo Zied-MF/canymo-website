@@ -1,5 +1,6 @@
 const article = {
   slug: 'poids-ideal-chien-race-tableau-complet',
+  category: 'Santé',
   title: 'Poids Idéal du Chien Selon sa Race : Tableau Complet 2026',
   date: '29 avril 2026',
   color: '#7a5c1e',

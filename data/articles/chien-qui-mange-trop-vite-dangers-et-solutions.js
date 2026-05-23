@@ -60,7 +60,7 @@ const article = {
 
     <h2>Solutions efficaces pour ralentir l'alimentation</h2>
     
-    <p><strong>Pour ralentir un chien qui mange trop vite, utilisez des <a href="/blog/routine-quotidienne-pour-chien-limportance-des-horaires">gamelles anti-glouton</a>, fractionnez les repas et créez un environnement calme pendant les repas.</strong> Ces méthodes réduisent efficacement la vitesse d'ingestion.</p>
+    <p><strong>Pour ralentir un chien qui mange trop vite, utilisez des <a href="/blog/routine-quotidienne-chien-importance-horaires">gamelles anti-glouton</a>, fractionnez les repas et créez un environnement calme pendant les repas.</strong> Ces méthodes réduisent efficacement la vitesse d'ingestion.</p>
     
     <h3>Gamelles et accessoires spécialisés</h3>
     

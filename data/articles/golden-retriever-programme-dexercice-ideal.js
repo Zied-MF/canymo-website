@@ -37,7 +37,7 @@ const article = {
       <li>Promenades actives de 20-30 minutes</li>
       <li>Sessions de jeu libre de 15-20 minutes</li>
       <li>Entraînement d'obéissance de 10-15 minutes</li>
-      <li><a href="/blog/natation-pour-chien-bienfaits-et-precautions">Natation supervisée</a> 2-3 fois par semaine</li>
+      <li><a href="/blog/natation-chien-bienfaits-precautions">Natation supervisée</a> 2-3 fois par semaine</li>
     </ul>
 
     <h3>Adulte (2-7 ans)</h3>

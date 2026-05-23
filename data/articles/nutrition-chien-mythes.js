@@ -79,7 +79,7 @@ const article = {
 
 <h2>Mythe n°3 : Le chien peut manger les restes de table</h2>
 
-<p>Cette pratique est déconseillée par les vétérinaires. Les <a href="/blog/aliments-toxiques-pour-chien-liste-complete-a-connaitre">restes de table</a> sont souvent trop salés, trop gras et peuvent contenir des aliments toxiques pour le chien. Le Centre Antipoison Animal de l'École Nationale Vétérinaire d'Alfort reçoit environ 20 000 appels par an, dont 15 % concernent des intoxications alimentaires.</p>
+<p>Cette pratique est déconseillée par les vétérinaires. Les <a href="/blog/aliments-toxiques-chien-liste-complete">restes de table</a> sont souvent trop salés, trop gras et peuvent contenir des aliments toxiques pour le chien. Le Centre Antipoison Animal de l'École Nationale Vétérinaire d'Alfort reçoit environ 20 000 appels par an, dont 15 % concernent des intoxications alimentaires.</p>
 
 <h3>Les aliments toxiques pour le chien</h3>
 
@@ -145,7 +145,7 @@ const article = {
 
 <h2>Mythe n°5 : Le régime BARF est le plus naturel et le meilleur</h2>
 
-<p>Le régime <a href="/blog/barf-pour-chien-guide-complet-pour-debutants">BARF</a> (Biologically Appropriate Raw Food) consiste à nourrir son chien avec de la viande crue, des os charnus, des abats et des légumes. Présenté comme "naturel", ce régime comporte des avantages mais aussi des risques avérés que ses défenseurs minimisent souvent.</p>
+<p>Le régime <a href="/blog/barf-pour-chien-guide-complet-debutants">BARF</a> (Biologically Appropriate Raw Food) consiste à nourrir son chien avec de la viande crue, des os charnus, des abats et des légumes. Présenté comme "naturel", ce régime comporte des avantages mais aussi des risques avérés que ses défenseurs minimisent souvent.</p>
 
 <h3>Les avantages du BARF</h3>
 

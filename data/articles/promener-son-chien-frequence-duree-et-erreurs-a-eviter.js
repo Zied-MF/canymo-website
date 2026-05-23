@@ -10,7 +10,7 @@ const article = {
 
     <p>Une promenade mal planifiée peut entraîner des troubles comportementaux, de l'anxiété ou des problèmes de santé chez votre chien. À l'inverse, <strong>promener son chien</strong> de manière optimale améliore sa socialisation, maintient son poids de forme et renforce votre lien.</p>
 
-    <p>Les études vétérinaires récentes révèlent que 60% des chiens domestiques souffrent de <a href="/blog/comment-savoir-si-mon-chien-est-en-surpoids-le-test-visuel">surpoids</a>, souvent lié à un manque d'exercice adapté. Cette réalité souligne l'urgence de maîtriser les bonnes pratiques de promenade.</p>
+    <p>Les études vétérinaires récentes révèlent que 60% des chiens domestiques souffrent de <a href="/blog/comment-savoir-si-mon-chien-est-en-surpoids-test-visuel">surpoids</a>, souvent lié à un manque d'exercice adapté. Cette réalité souligne l'urgence de maîtriser les bonnes pratiques de promenade.</p>
 
     <p>Dans ce guide complet, vous découvrirez les fréquences recommandées selon l'âge et la race, les durées optimales d'exercice, ainsi que les erreurs courantes qui compromettent l'efficacité de vos sorties.</p>
 

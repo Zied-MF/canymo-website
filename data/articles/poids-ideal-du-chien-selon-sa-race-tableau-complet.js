@@ -83,7 +83,7 @@ const article = {
 
     <h2>Méthodes d'Évaluation du Poids Idéal Chien Race</h2>
 
-    <p>L'évaluation précise du <strong>poids idéal chien race</strong> nécessite une approche méthodique combinant pesée régulière et examen morphologique. Les vétérinaires utilisent le <a href="/blog/comment-savoir-si-mon-chien-est-en-surpoids-le-test-visuel">Body Condition Score (BCS)</a>, échelle de 1 à 9 développée par l'Association Américaine des Hôpitaux Vétérinaires.</p>
+    <p>L'évaluation précise du <strong>poids idéal chien race</strong> nécessite une approche méthodique combinant pesée régulière et examen morphologique. Les vétérinaires utilisent le <a href="/blog/comment-savoir-si-mon-chien-est-en-surpoids-test-visuel">Body Condition Score (BCS)</a>, échelle de 1 à 9 développée par l'Association Américaine des Hôpitaux Vétérinaires.</p>
 
     <p>Cette grille d'évaluation objective permet d'identifier les écarts pondéraux avant qu'ils n'impactent la santé. Un score de 4-5/9 correspond au poids optimal, tandis que 6-7 indique un surpoids et 8-9 une obésité clinique.</p>
 

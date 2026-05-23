@@ -247,7 +247,7 @@ const article = {
 <p>Les maladies les plus courantes chez le chien très âgé sont :</p>
 
 <ul>
-  <li><strong><a href="/blog/arthrose-du-chien-symptomes-et-exercices-adaptes">Arthrose</a></strong> : touche 80 % des chiens de plus de 8 ans, traitement multimodal (anti-inflammatoires, physiothérapie, suppléments)</li>
+  <li><strong><a href="/blog/arthrose-chien-symptomes-exercices-adaptes">Arthrose</a></strong> : touche 80 % des chiens de plus de 8 ans, traitement multimodal (anti-inflammatoires, physiothérapie, suppléments)</li>
   <li><strong>Insuffisance rénale chronique</strong> : 10 % des chiens de plus de 10 ans, détectable par bilan sanguin</li>
   <li><strong>Insuffisance cardiaque</strong> : surtout chez les petites races (maladie valvulaire)</li>
   <li><strong>Tumeurs</strong> : 50 % des chiens de plus de 10 ans développent un cancer</li>

@@ -26,7 +26,7 @@ const article = {
     
     <ul>
       <li><strong>Infections urinaires</strong> : provoquent douleur et inconfort</li>
-      <li><strong>Troubles hormonaux</strong> : <a href="/blog/cavalier-king-charles-sante-poids-et-activite">hypothyroïdie, diabète</a></li>
+      <li><strong>Troubles hormonaux</strong> : <a href="/blog/cavalier-king-charles-sante-poids-activite">hypothyroïdie, diabète</a></li>
       <li><strong>Douleurs articulaires</strong> : arthrose, dysplasie</li>
       <li><strong>Parasites intestinaux</strong> : vers, giardia</li>
       <li><strong>Effets secondaires médicamenteux</strong> : antibiotiques, anti-inflammatoires</li>

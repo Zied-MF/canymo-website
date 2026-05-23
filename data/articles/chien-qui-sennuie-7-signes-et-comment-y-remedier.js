@@ -77,7 +77,7 @@ const article = {
     <h3>Augmentation progressive de l'activité physique</h3>
     <p>Commencez par augmenter de 30% la durée des promenades quotidiennes. Cette progression graduelle évite les blessures tout en répondant aux besoins énergétiques du chien.</p>
     
-    <p>Introduisez des activités variées : course, <a href="/blog/natation-pour-chien-bienfaits-et-precautions">natation</a>, jeux de balle ou agility selon les préférences et capacités de votre animal.</p>
+    <p>Introduisez des activités variées : course, <a href="/blog/natation-chien-bienfaits-precautions">natation</a>, jeux de balle ou agility selon les préférences et capacités de votre animal.</p>
 
     <h3>Enrichissement de l'environnement</h3>
     <p>Transformez l'espace de vie de votre chien avec des éléments stimulants. Les jouets puzzle, distributeurs de friandises et tapis de fouille offrent des défis mentaux quotidiens.</p>

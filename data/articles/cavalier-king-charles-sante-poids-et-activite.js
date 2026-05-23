@@ -40,7 +40,7 @@ const article = {
 
     <h2>Poids idéal et gestion nutritionnelle du Cavalier King Charles santé</h2>
     
-    <p>Le maintien d'un poids optimal constitue un facteur clé pour préserver la <strong>Cavalier King Charles santé</strong>. Un <a href="/blog/labrador-exercice-alimentation-et-gestion-du-poids">surpoids</a> aggrave considérablement les problèmes cardiaques déjà présents chez cette race.</p>
+    <p>Le maintien d'un poids optimal constitue un facteur clé pour préserver la <strong>Cavalier King Charles santé</strong>. Un <a href="/blog/labrador-exercice-alimentation-gestion-poids">surpoids</a> aggrave considérablement les problèmes cardiaques déjà présents chez cette race.</p>
     
     <h3>Standards de poids selon l'âge</h3>
     

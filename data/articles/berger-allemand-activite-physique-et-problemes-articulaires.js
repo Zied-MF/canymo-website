@@ -65,7 +65,7 @@ const article = {
       <li>Jeux de socialisation avec d'autres chiots</li>
       <li>Promenades courtes sur terrain souple</li>
       <li>Exercices d'obéissance de base</li>
-      <li><a href="/blog/natation-pour-chien-bienfaits-et-precautions">Natation supervisée</a> (excellente pour les articulations)</li>
+      <li><a href="/blog/natation-chien-bienfaits-precautions">Natation supervisée</a> (excellente pour les articulations)</li>
     </ul>
 
     <h3>Adolescent (1-2 ans)</h3>

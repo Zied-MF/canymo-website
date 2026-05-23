@@ -13,7 +13,7 @@ const article = {
 
 <h2>Comment savoir si mon chien est en surpoids ?</h2>
 
-<p>Un chien est en surpoids lorsqu'il est impossible de sentir ses côtes facilement en passant les mains sur ses flancs sans appuyer. La méthode la plus fiable pour évaluer la condition corporelle d'un chien est le <a href="/blog/comment-savoir-si-mon-chien-est-en-surpoids-le-test-visuel">Body Condition Score (BCS)</a>, une échelle utilisée par les vétérinaires.</p>
+<p>Un chien est en surpoids lorsqu'il est impossible de sentir ses côtes facilement en passant les mains sur ses flancs sans appuyer. La méthode la plus fiable pour évaluer la condition corporelle d'un chien est le <a href="/blog/comment-savoir-si-mon-chien-est-en-surpoids-test-visuel">Body Condition Score (BCS)</a>, une échelle utilisée par les vétérinaires.</p>
 
 <h3>Le Body Condition Score (BCS)</h3>
 
@@ -188,7 +188,7 @@ const article = {
 <p><strong>Activités recommandées pour les chiens en surpoids :</strong></p>
 
 <ul>
-  <li><a href="/blog/natation-pour-chien-bienfaits-et-precautions">La natation</a> : sollicite les muscles sans impact articulaire</li>
+  <li><a href="/blog/natation-chien-bienfaits-precautions">La natation</a> : sollicite les muscles sans impact articulaire</li>
   <li>La marche sur terrain plat : adaptée à tous les chiens</li>
   <li>Les jeux de recherche : stimulation mentale et physique modérée</li>
   <li>Le tapis roulant aquatique : disponible chez certains vétérinaires et rééducateurs</li>

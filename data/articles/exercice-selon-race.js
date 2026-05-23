@@ -81,7 +81,7 @@ const article = {
 <p>Ces races ont été sélectionnées pour le travail et nécessitent une activité physique soutenue quotidienne. Une simple promenade ne suffit pas.</p>
 
 <ul>
-  <li><strong>Labrador Retriever</strong> : 60 à 90 minutes, <a href="/blog/natation-pour-chien-bienfaits-et-precautions">natation</a> recommandée</li>
+  <li><strong>Labrador Retriever</strong> : 60 à 90 minutes, <a href="/blog/natation-chien-bienfaits-precautions">natation</a> recommandée</li>
   <li><strong>Golden Retriever</strong> : 60 à 90 minutes, jeux de rapport</li>
   <li><strong>Boxer</strong> : 60 à 90 minutes, activités variées</li>
   <li><strong>Braque Allemand</strong> : 90 minutes, besoin de courir</li>
@@ -154,7 +154,7 @@ const article = {
 
 <h3>Chiens seniors (7 ans et plus)</h3>
 
-<p>Les chiens âgés conservent un besoin d'exercice mais leur capacité diminue. L'<a href="/blog/arthrose-du-chien-symptomes-et-exercices-adaptes">arthrose</a> touche environ 80 % des chiens de plus de 8 ans.</p>
+<p>Les chiens âgés conservent un besoin d'exercice mais leur capacité diminue. L'<a href="/blog/arthrose-chien-symptomes-exercices-adaptes">arthrose</a> touche environ 80 % des chiens de plus de 8 ans.</p>
 
 <ul>
   <li>Réduire la durée de 20 à 30 % par rapport à l'âge adulte</li>

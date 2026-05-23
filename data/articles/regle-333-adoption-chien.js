@@ -59,7 +59,7 @@ const article = {
     <tr><td>Se cacher</td><td>Besoin de sécurité</td><td>Laisser l'accès à une cachette, ne pas forcer le contact</td></tr>
     <tr><td>Dormir beaucoup</td><td>Récupération du stress</td><td>Ne pas déranger, c'est un mécanisme sain</td></tr>
     <tr><td>Accidents dans la maison</td><td>Stress ou méconnaissance des règles</td><td>Nettoyer sans punir, sortir fréquemment</td></tr>
-    <tr><td>Suivre partout</td><td><a href="/blog/chien-qui-sennuie-7-signes-et-comment-y-remedier">Anxiété</a> de séparation naissante</td><td>Rassurer par la présence sans encourager la dépendance</td></tr>
+    <tr><td>Suivre partout</td><td><a href="/blog/chien-qui-s-ennuie-7-signes-comment-y-remedier">Anxiété</a> de séparation naissante</td><td>Rassurer par la présence sans encourager la dépendance</td></tr>
     <tr><td>Aboiements ou gémissements</td><td>Expression de l'inconfort</td><td>Ignorer les vocalises, récompenser le calme</td></tr>
   </tbody>
 </table>
@@ -71,7 +71,7 @@ const article = {
 <ul>
   <li><strong>Limiter les stimulations</strong> : pas de visiteurs, pas de sorties dans des lieux fréquentés</li>
   <li><strong>Créer un espace refuge</strong> : un coin calme avec un couchage, de l'eau et un vêtement portant votre odeur</li>
-  <li><strong>Établir une <a href="/blog/routine-quotidienne-pour-chien-limportance-des-horaires">routine</a> simple</strong> : heures de repas et de sorties fixes</li>
+  <li><strong>Établir une <a href="/blog/routine-quotidienne-chien-importance-horaires">routine</a> simple</strong> : heures de repas et de sorties fixes</li>
   <li><strong>Respecter son rythme</strong> : le laisser venir vers vous plutôt que de le solliciter</li>
   <li><strong>Parler doucement</strong> : éviter les bruits forts, les gestes brusques</li>
   <li><strong>Sorties courtes et calmes</strong> : uniquement pour les besoins, en laisse, dans un environnement peu stimulant</li>

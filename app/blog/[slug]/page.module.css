@@ -120,6 +120,20 @@
   margin-top: 1px;
 }
 
+.richContent a {
+  color: var(--green-medium);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgba(45, 100, 68, 0.35);
+  text-underline-offset: 3px;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.richContent a:hover {
+  color: var(--green-dark);
+  text-decoration-color: var(--green-dark);
+}
+
 .richContent blockquote {
   background: rgba(28, 61, 42, 0.05);
   border-left: 4px solid var(--gold);

@@ -220,7 +220,7 @@ export default async function ArticlePage({ params }) {
             <div className={styles.othersGrid}>
               {others.map(a => (
                 <Link key={a.slug} href={`/blog/${a.slug}`} className={styles.otherCard}>
-                  <div className={styles.otherImg} style={{ background: a.color }} />
+                  <div className={styles.otherImg} style={{ background: CATEGORY_COLORS[a.category] || a.color }} />
                   <div className={styles.otherBody}>
                     <span className={styles.otherDate}>{a.date}</span>
                     <h3 className={styles.otherTitle}>{a.title}</h3>

@@ -13,6 +13,9 @@
       "Bash(grep -h \"category:\" /Users/ziedfekih/Documents/canymo-website/data/articles/*.js)",
       "Bash(sed -i '' 's/import chienQuiSennuie-7SignesEtCommentYRemedier/import chienQuiSennuie7SignesEtCommentYRemedier/' /Users/ziedfekih/Documents/canymo-website/data/articles/index.js)",
       "Bash(sed -i '' 's/chienQuiSennuie-7SignesEtCommentYRemedier/chienQuiSennuie7SignesEtCommentYRemedier/g' /Users/ziedfekih/Documents/canymo-website/data/articles/index.js)"
+    ],
+    "additionalDirectories": [
+      "/Users/ziedfekih/Documents/canymo-website/.claude"
     ]
   }
 }

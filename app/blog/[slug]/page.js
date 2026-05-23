@@ -120,7 +120,9 @@ export default async function ArticlePage({ params }) {
   const article = articles.find(a => a.slug === slug)
   if (!article) notFound()
 
-  const others = articles.filter(a => a.slug !== article.slug).slice(0, 2)
+  const others = article.category
+    ? articles.filter(a => a.slug !== article.slug && a.category === article.category).slice(0, 2)
+    : []
 
   let headings = []
   let processedHtml = null

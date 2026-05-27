@@ -21,6 +21,7 @@ import natationPourChienBienfaitsEtPrecautions from './natation-pour-chien-bienf
 import chienQuiSennuie7SignesEtCommentYRemedier from './chien-qui-sennuie-7-signes-et-comment-y-remedier'
 import goldenRetrieverProgrammeDexerciceIdeal from './golden-retriever-programme-dexercice-ideal'
 import chienSeniorAdapterExerciceAlimentationApres7Ans from './chien-senior-adapter-lexercice-et-lalimentation-apres-7-ans'
+import friandisesPourChienLesquellesChoisirSansCulpabiliser from './friandises-pour-chien-lesquelles-choisir-sans-culpabiliser'
 
 // Fonction pour parser les dates en français
 const months = {
@@ -42,5 +43,5 @@ function parseDate(dateStr) {
 }
 
 // Articles triés du plus récent au plus ancien
-const allArticles = [surpoids, exercice, nutrition, age, regle333, monChienNeMangePlusCausesEtQuandSinquieter, arthroseDuChienSymptomesEtExercicesAdaptes, promenerSonChienFrequenceDureeEtErreursAEviter, beaglePourquoiCetteRaceGrossitFacilement, canicrossDebutantCommentCommencerACourirAvecSonChien, bergerAllemandActivitePhysiqueEtProblemesArticulaires, barfPourChienGuideCompletPourDebutants, routineQuotidiennePourChienLimportanceDesHoraires, poidsIdealDuChienSelonSaRaceTableauComplet, labradorExerciceAlimentationEtGestionDuPoids, alimentsToxiquesPourChienListeCompleteAConnaitre, cavalierKingCharlesSantePoidsEtActivite, commentSavoirSiMonChienEstEnSurpoidsLeTestVisuel, chienQuiMangeTropViteDangersEtSolutions, natationPourChienBienfaitsEtPrecautions, chienQuiSennuie7SignesEtCommentYRemedier, goldenRetrieverProgrammeDexerciceIdeal, chienSeniorAdapterExerciceAlimentationApres7Ans]
+const allArticles = [surpoids, exercice, nutrition, age, regle333, monChienNeMangePlusCausesEtQuandSinquieter, arthroseDuChienSymptomesEtExercicesAdaptes, promenerSonChienFrequenceDureeEtErreursAEviter, beaglePourquoiCetteRaceGrossitFacilement, canicrossDebutantCommentCommencerACourirAvecSonChien, bergerAllemandActivitePhysiqueEtProblemesArticulaires, barfPourChienGuideCompletPourDebutants, routineQuotidiennePourChienLimportanceDesHoraires, poidsIdealDuChienSelonSaRaceTableauComplet, labradorExerciceAlimentationEtGestionDuPoids, alimentsToxiquesPourChienListeCompleteAConnaitre, cavalierKingCharlesSantePoidsEtActivite, commentSavoirSiMonChienEstEnSurpoidsLeTestVisuel, chienQuiMangeTropViteDangersEtSolutions, natationPourChienBienfaitsEtPrecautions, chienQuiSennuie7SignesEtCommentYRemedier, goldenRetrieverProgrammeDexerciceIdeal, chienSeniorAdapterExerciceAlimentationApres7Ans, friandisesPourChienLesquellesChoisirSansCulpabiliser]
 export const articles = allArticles.sort((a, b) => parseDate(b.date) - parseDate(a.date))

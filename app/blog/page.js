@@ -2,6 +2,7 @@ import FadeUp from '@/components/FadeUp/FadeUp'
 import { articles } from '@/data/articles/index'
 import BlogClient from './BlogClient'
 import Breadcrumb from '@/components/Breadcrumb/Breadcrumb'
+import StructuredData from '@/components/StructuredData/StructuredData'
 import styles from './page.module.css'
 
 export const metadata = {
@@ -13,8 +14,25 @@ export const metadata = {
 }
 
 export default function Blog() {
+  const collectionPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Blog Canymo — Santé, nutrition et bien-être canin',
+    description: 'Conseils santé, nutrition et bien-être pour ton chien. Écrits par des passionnés.',
+    url: 'https://www.canymo.com/blog',
+    publisher: { '@type': 'Organization', name: 'Canymo', url: 'https://www.canymo.com' },
+    hasPart: articles.map(a => ({
+      '@type': 'BlogPosting',
+      headline: a.title,
+      description: a.excerpt,
+      url: `https://www.canymo.com/blog/${a.slug}`,
+      author: { '@type': 'Organization', name: 'Canymo' },
+    })),
+  }
+
   return (
     <div className={styles.page}>
+      <StructuredData data={collectionPageSchema} />
       <Breadcrumb items={[
         { label: 'Accueil', href: '/' },
         { label: 'Blog' },

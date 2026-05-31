@@ -4,6 +4,7 @@ import { articles } from '@/data/articles/index'
 import { CATEGORY_COLORS } from '@/data/categories'
 import StructuredData from '@/components/StructuredData/StructuredData'
 import ArticleHero from '@/components/ArticleHero/ArticleHero'
+import Breadcrumb from '@/components/Breadcrumb/Breadcrumb'
 import styles from './page.module.css'
 import Link from 'next/link'
 
@@ -160,10 +161,27 @@ export default async function ArticlePage({ params }) {
     })),
   } : null
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://www.canymo.com' },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.canymo.com/blog' },
+      { '@type': 'ListItem', position: 3, name: article.title, item: `https://www.canymo.com/blog/${article.slug}` },
+    ],
+  }
+
   return (
     <div className={styles.page}>
       <StructuredData data={articleSchema} />
+      <StructuredData data={breadcrumbSchema} />
       {faqSchema && <StructuredData data={faqSchema} />}
+
+      <Breadcrumb items={[
+        { label: 'Accueil', href: '/' },
+        { label: 'Blog', href: '/blog' },
+        { label: article.title },
+      ]} />
 
       {/* Article Header with sticky band */}
       <ArticleHero

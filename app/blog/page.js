@@ -1,6 +1,8 @@
 import FadeUp from '@/components/FadeUp/FadeUp'
 import { articles } from '@/data/articles/index'
 import BlogClient from './BlogClient'
+import Breadcrumb from '@/components/Breadcrumb/Breadcrumb'
+import StructuredData from '@/components/StructuredData/StructuredData'
 import styles from './page.module.css'
 
 export const metadata = {
@@ -11,9 +13,23 @@ export const metadata = {
   },
 }
 
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://www.canymo.com' },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.canymo.com/blog' },
+  ],
+}
+
 export default function Blog() {
   return (
     <div className={styles.page}>
+      <StructuredData data={breadcrumbSchema} />
+      <Breadcrumb items={[
+        { label: 'Accueil', href: '/' },
+        { label: 'Blog' },
+      ]} />
       <section className={styles.hero}>
         <div className={styles.container}>
           <FadeUp>

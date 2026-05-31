@@ -1,0 +1,49 @@
+.breadcrumb {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px 24px 0;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.link {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--green-medium);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: var(--green-dark);
+}
+
+.sep {
+  font-size: 0.82rem;
+  color: var(--green-dark);
+  opacity: 0.3;
+}
+
+.current {
+  font-size: 0.82rem;
+  color: #4a6b58;
+  max-width: 320px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}

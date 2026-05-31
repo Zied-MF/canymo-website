@@ -84,7 +84,7 @@ const plans = [
 export default function Tarifs() {
   return (
     <div className={styles.page}>
-      <Breadcrumb items={[{ label: 'Accueil', href: '/' }, { label: 'Tarifs' }]} />
+      <Breadcrumb items={[{ label: 'Accueil', href: '/' }, { label: 'Tarifs', href: '/tarifs' }]} />
       <section className={styles.hero}>
         <div className={styles.container}>
           <FadeUp>

@@ -64,7 +64,7 @@ export default function FAQPage() {
   return (
     <>
       <StructuredData data={faqSchema} />
-      <Breadcrumb items={[{ label: 'Accueil', href: '/' }, { label: 'FAQ' }]} />
+      <Breadcrumb items={[{ label: 'Accueil', href: '/' }, { label: 'FAQ', href: '/faq' }]} />
       <FAQClient faqs={faqs} />
     </>
   )

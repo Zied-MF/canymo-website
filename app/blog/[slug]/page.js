@@ -169,7 +169,7 @@ export default async function ArticlePage({ params }) {
       <Breadcrumb items={[
         { label: 'Accueil', href: '/' },
         { label: 'Blog', href: '/blog' },
-        { label: article.title },
+        { label: article.title, href: `/blog/${article.slug}` },
       ]} />
 
       {/* Article Header with sticky band */}

@@ -35,7 +35,7 @@ export default function Blog() {
       <StructuredData data={collectionPageSchema} />
       <Breadcrumb items={[
         { label: 'Accueil', href: '/' },
-        { label: 'Blog' },
+        { label: 'Blog', href: '/blog' },
       ]} />
       <section className={styles.hero}>
         <div className={styles.container}>

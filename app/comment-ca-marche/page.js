@@ -73,7 +73,7 @@ const faqs = [
 export default function CommentCaMarche() {
   return (
     <div className={styles.page}>
-      <Breadcrumb items={[{ label: 'Accueil', href: '/' }, { label: 'Comment ça marche' }]} />
+      <Breadcrumb items={[{ label: 'Accueil', href: '/' }, { label: 'Comment ça marche', href: '/comment-ca-marche' }]} />
       {/* Hero */}
       <section className={styles.hero}>
         <div className={styles.container}>

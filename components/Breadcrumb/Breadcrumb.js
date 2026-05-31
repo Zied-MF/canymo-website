@@ -10,8 +10,8 @@ export default function Breadcrumb({ items }) {
     itemListElement: items.map((item, i) => ({
       '@type': 'ListItem',
       position: i + 1,
-      name: item.label,
-      item: `${BASE_URL}${item.href ?? ''}`,
+      name: item.href === '/' ? 'Canymo' : item.label,
+      item: `${BASE_URL}${item.href}`,
     })),
   }
 

@@ -34,7 +34,14 @@
       "Bash(head -6 grep -A3 \"return \\(\" /Users/ziedfekih/Documents/canymo-website/app/contact/page.js)",
       "Bash(head -5 grep -A3 \"return \\(\" /Users/ziedfekih/Documents/canymo-website/app/cgu/page.js)",
       "Bash(head -5 grep -A3 \"return \\(\" /Users/ziedfekih/Documents/canymo-website/app/confidentialite/page.js)",
-      "Bash(head -5 grep -A3 \"return \\(\" /Users/ziedfekih/Documents/canymo-website/app/mentions-legales/page.js)"
+      "Bash(head -5 grep -A3 \"return \\(\" /Users/ziedfekih/Documents/canymo-website/app/mentions-legales/page.js)",
+      "Bash(git rm:*)",
+      "Bash(grep -rn \"label: ''Blog'' }\\\\|label: ''Tarifs'' }\\\\|label: ''FAQ'' }\\\\|label: ''Contact'' }\\\\|label: ''CGU'' }\\\\|label: ''Confidentialité'' }\\\\|label: ''Mentions légales'' }\\\\|label: ''Comment ça marche'' }\" /Users/ziedfekih/Documents/canymo-website/app/)",
+      "Bash(sed -i '' \"s/{ label: ''Confidentialité'' }/{ label: ''Confidentialité'', href: ''\\\\/confidentialite'' }/g\" app/confidentialite/page.js)",
+      "Bash(sed -i '' \"s/{ label: ''Contact'' }/{ label: ''Contact'', href: ''\\\\/contact'' }/g\" app/contact/page.js)",
+      "Bash(sed -i '' \"s/{ label: ''Tarifs'' }/{ label: ''Tarifs'', href: ''\\\\/tarifs'' }/g\" app/tarifs/page.js)",
+      "Bash(sed -i '' \"s/{ label: ''FAQ'' }/{ label: ''FAQ'', href: ''\\\\/faq'' }/g\" app/faq/page.js)",
+      "Bash(sed -i '' \"s/{ label: ''Blog'' },/{ label: ''Blog'', href: ''\\\\/blog'' },/g\" app/blog/page.js)"
     ],
     "additionalDirectories": [
       "/Users/ziedfekih/Documents/canymo-website/.claude",

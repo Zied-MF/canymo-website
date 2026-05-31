@@ -13,7 +13,7 @@ export const metadata = {
 export default function MentionsLegalesPage() {
   return (
     <div className={styles.page}>
-      <Breadcrumb items={[{ label: 'Accueil', href: '/' }, { label: 'Mentions légales' }]} />
+      <Breadcrumb items={[{ label: 'Accueil', href: '/' }, { label: 'Mentions légales', href: '/mentions-legales' }]} />
       <div className={styles.container}>
         <h1 className={styles.h1}>Mentions Légales</h1>
 

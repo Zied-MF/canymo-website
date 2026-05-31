@@ -12,7 +12,7 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <div className={styles.page}>
-      <Breadcrumb items={[{ label: 'Accueil', href: '/' }, { label: 'Contact' }]} />
+      <Breadcrumb items={[{ label: 'Accueil', href: '/' }, { label: 'Contact', href: '/contact' }]} />
       <div className={styles.container}>
         <h1 className={styles.h1}>Contactez-nous</h1>
         <p className={styles.updated}>Une question, une suggestion ou besoin d'aide ? N'hésitez pas à nous écrire.</p>

@@ -12,10 +12,33 @@
       "Bash(sed -i '' \"s/slug: ''regle-333-adoption-chien''/slug: ''regle-333-adoption-chien'',\\\\n  category: ''Comportement''/\" /Users/ziedfekih/Documents/canymo-website/data/articles/regle-333-adoption-chien.js)",
       "Bash(grep -h \"category:\" /Users/ziedfekih/Documents/canymo-website/data/articles/*.js)",
       "Bash(sed -i '' 's/import chienQuiSennuie-7SignesEtCommentYRemedier/import chienQuiSennuie7SignesEtCommentYRemedier/' /Users/ziedfekih/Documents/canymo-website/data/articles/index.js)",
-      "Bash(sed -i '' 's/chienQuiSennuie-7SignesEtCommentYRemedier/chienQuiSennuie7SignesEtCommentYRemedier/g' /Users/ziedfekih/Documents/canymo-website/data/articles/index.js)"
+      "Bash(sed -i '' 's/chienQuiSennuie-7SignesEtCommentYRemedier/chienQuiSennuie7SignesEtCommentYRemedier/g' /Users/ziedfekih/Documents/canymo-website/data/articles/index.js)",
+      "Bash(grep -h \"slug:\" /Users/ziedfekih/Documents/canymo-website/data/articles/*.js)",
+      "Bash(grep -r 'href=\"\"\"\"/blog/' /Users/ziedfekih/Documents/canymo-website/data/articles/*.js)",
+      "Bash(xargs -I{} basename {} .js)",
+      "WebFetch(domain:pagespeed.web.dev)",
+      "Bash(git stash:*)",
+      "Bash(for f:*)",
+      "Bash(do)",
+      "Bash(echo \"=== $f ===\")",
+      "Read(//Users/ziedfekih/Documents/canymo-website/**)",
+      "Bash(done)",
+      "Bash(head -3 grep -n \"return\\\\s*\\(\" /Users/ziedfekih/Documents/canymo-website/app/comment-ca-marche/page.js)",
+      "Bash(head -3 grep -n \"return\\\\s*\\(\" /Users/ziedfekih/Documents/canymo-website/app/faq/page.js)",
+      "Bash(head -3 grep -n \"return\\\\s*\\(\" /Users/ziedfekih/Documents/canymo-website/app/contact/page.js)",
+      "Bash(head -3 grep -n \"return\\\\s*\\(\" /Users/ziedfekih/Documents/canymo-website/app/cgu/page.js)",
+      "Bash(head -3 grep -n \"return\\\\s*\\(\" /Users/ziedfekih/Documents/canymo-website/app/confidentialite/page.js)",
+      "Bash(head -3 grep -n \"return\\\\s*\\(\" /Users/ziedfekih/Documents/canymo-website/app/mentions-legales/page.js)",
+      "Bash(head -3 grep -n \"return\\\\s*\\(\" /Users/ziedfekih/Documents/canymo-website/app/page.js)",
+      "Bash(head -5 grep -A4 \"return \\(\" /Users/ziedfekih/Documents/canymo-website/app/faq/page.js)",
+      "Bash(head -6 grep -A3 \"return \\(\" /Users/ziedfekih/Documents/canymo-website/app/contact/page.js)",
+      "Bash(head -5 grep -A3 \"return \\(\" /Users/ziedfekih/Documents/canymo-website/app/cgu/page.js)",
+      "Bash(head -5 grep -A3 \"return \\(\" /Users/ziedfekih/Documents/canymo-website/app/confidentialite/page.js)",
+      "Bash(head -5 grep -A3 \"return \\(\" /Users/ziedfekih/Documents/canymo-website/app/mentions-legales/page.js)"
     ],
     "additionalDirectories": [
-      "/Users/ziedfekih/Documents/canymo-website/.claude"
+      "/Users/ziedfekih/Documents/canymo-website/.claude",
+      "/Users/ziedfekih/Documents/canymo-website"
     ]
   }
 }

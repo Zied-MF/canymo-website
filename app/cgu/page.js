@@ -1,4 +1,5 @@
 import styles from './page.module.css'
+import Breadcrumb from '@/components/Breadcrumb/Breadcrumb'
 
 export const metadata = {
   title: "Conditions Générales d'Utilisation | Canymo",
@@ -11,6 +12,7 @@ export const metadata = {
 export default function CGUPage() {
   return (
     <div className={styles.page}>
+      <Breadcrumb items={[{ label: 'Accueil', href: '/' }, { label: 'CGU' }]} />
       <div className={styles.container}>
         <h1 className={styles.h1}>Conditions Générales d'Utilisation</h1>
         <p className={styles.updated}>Dernière mise à jour : 24 mars 2025</p>

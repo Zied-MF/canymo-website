@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import styles from '../cgu/page.module.css'
+import Breadcrumb from '@/components/Breadcrumb/Breadcrumb'
 
 export const metadata = {
   title: 'Mentions Légales | Canymo',
@@ -12,6 +13,7 @@ export const metadata = {
 export default function MentionsLegalesPage() {
   return (
     <div className={styles.page}>
+      <Breadcrumb items={[{ label: 'Accueil', href: '/' }, { label: 'Mentions légales' }]} />
       <div className={styles.container}>
         <h1 className={styles.h1}>Mentions Légales</h1>
 

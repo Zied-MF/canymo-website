@@ -1,4 +1,5 @@
 import FadeUp from '@/components/FadeUp/FadeUp'
+import Breadcrumb from '@/components/Breadcrumb/Breadcrumb'
 import styles from './page.module.css'
 
 export const metadata = {
@@ -72,6 +73,7 @@ const faqs = [
 export default function CommentCaMarche() {
   return (
     <div className={styles.page}>
+      <Breadcrumb items={[{ label: 'Accueil', href: '/' }, { label: 'Comment ça marche' }]} />
       {/* Hero */}
       <section className={styles.hero}>
         <div className={styles.container}>

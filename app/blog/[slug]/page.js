@@ -161,20 +161,9 @@ export default async function ArticlePage({ params }) {
     })),
   } : null
 
-  const breadcrumbSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://www.canymo.com' },
-      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.canymo.com/blog' },
-      { '@type': 'ListItem', position: 3, name: article.title, item: `https://www.canymo.com/blog/${article.slug}` },
-    ],
-  }
-
   return (
     <div className={styles.page}>
       <StructuredData data={articleSchema} />
-      <StructuredData data={breadcrumbSchema} />
       {faqSchema && <StructuredData data={faqSchema} />}
 
       <Breadcrumb items={[

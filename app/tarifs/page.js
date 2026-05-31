@@ -1,4 +1,5 @@
 import FadeUp from '@/components/FadeUp/FadeUp'
+import Breadcrumb from '@/components/Breadcrumb/Breadcrumb'
 import styles from './page.module.css'
 
 export const metadata = {
@@ -83,6 +84,7 @@ const plans = [
 export default function Tarifs() {
   return (
     <div className={styles.page}>
+      <Breadcrumb items={[{ label: 'Accueil', href: '/' }, { label: 'Tarifs' }]} />
       <section className={styles.hero}>
         <div className={styles.container}>
           <FadeUp>

@@ -1,5 +1,6 @@
 import dynamic from 'next/dynamic'
 import StructuredData from '@/components/StructuredData/StructuredData'
+import Breadcrumb from '@/components/Breadcrumb/Breadcrumb'
 
 const FAQClient = dynamic(() => import('./FAQClient'))
 
@@ -63,6 +64,7 @@ export default function FAQPage() {
   return (
     <>
       <StructuredData data={faqSchema} />
+      <Breadcrumb items={[{ label: 'Accueil', href: '/' }, { label: 'FAQ' }]} />
       <FAQClient faqs={faqs} />
     </>
   )

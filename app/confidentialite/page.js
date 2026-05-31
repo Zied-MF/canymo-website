@@ -1,4 +1,5 @@
 import styles from '../cgu/page.module.css'
+import Breadcrumb from '@/components/Breadcrumb/Breadcrumb'
 
 export const metadata = {
   title: 'Politique de Confidentialité | Canymo',
@@ -11,6 +12,7 @@ export const metadata = {
 export default function ConfidentialitePage() {
   return (
     <div className={styles.page}>
+      <Breadcrumb items={[{ label: 'Accueil', href: '/' }, { label: 'Confidentialité' }]} />
       <div className={styles.container}>
         <h1 className={styles.h1}>Politique de Confidentialité</h1>
         <p className={styles.updated}>Dernière mise à jour : 24 mars 2025</p>

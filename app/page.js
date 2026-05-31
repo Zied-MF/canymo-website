@@ -11,7 +11,7 @@ const Stats = dynamic(() => import('@/components/Stats/Stats'))
 const homeBreadcrumb = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
-  itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://www.canymo.com' }],
+  itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Canymo', item: 'https://www.canymo.com' }],
 }
 
 export default function Home() {

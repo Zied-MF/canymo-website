@@ -31,6 +31,39 @@ export const metadata = {
   },
 }
 
+const softwareAppSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: 'Canymo',
+  applicationCategory: 'HealthApplication',
+  operatingSystem: 'iOS, Android',
+  url: 'https://www.canymo.com',
+  description: "L'app de santé et bien-être pour chiens. Plans personnalisés, nutrition adaptée, suivi intelligent.",
+  offers: [
+    {
+      '@type': 'Offer',
+      name: 'Free',
+      price: '0',
+      priceCurrency: 'EUR',
+      description: 'Pour découvrir Canymo et commencer à suivre ton chien.',
+    },
+    {
+      '@type': 'Offer',
+      name: 'Pro',
+      price: '5.99',
+      priceCurrency: 'EUR',
+      description: 'Pour les maîtres engagés qui veulent le meilleur pour leur chien.',
+    },
+    {
+      '@type': 'Offer',
+      name: 'Pro Annuel',
+      price: '49',
+      priceCurrency: 'EUR',
+      description: "Tout le Pro, avec 32% d'économies.",
+    },
+  ],
+}
+
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
@@ -50,6 +83,7 @@ export default function RootLayout({ children }) {
     <html lang="fr" className={`${fraunces.variable} ${dmSans.variable}`}>
       <body>
         <StructuredData data={organizationSchema} />
+        <StructuredData data={softwareAppSchema} />
         <Header />
         <main>{children}</main>
         <Footer />

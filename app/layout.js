@@ -19,7 +19,7 @@ const dmSans = DM_Sans({
 })
 
 export const metadata = {
-  title: "Canymo — Ton chien mérite d'être au top",
+  title: 'Programme nutrition et exercices personnalisés pour chien - Canymo',
   description:
     "L'app de santé et bien-être pour chiens. Plans personnalisés, nutrition adaptée, suivi intelligent.",
   robots: { index: true, follow: true },
